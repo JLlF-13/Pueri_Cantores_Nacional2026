@@ -1,0 +1,80 @@
+{
+    "CongresoInformacion": [
+        {
+            "10 Octubre": [
+                {
+                    "actividadTitulo": "Acogida de los Coros",
+                    "informacionAdicional": "Entrega de acreditaciones y llaves de habitaciones",
+                    "horaInicio": "17:00",
+                    "horaFin": "19:00"
+                },
+                {
+                    "actividadTitulo": "Procesión de al luz",
+                    "informacionAdicional": "Salida de los coros en procesión desde las distintas parroquias de Ciutadella hasta la Catdral de Menorca",
+                    "horaInicio": "20:30"
+                },
+                {
+                    "actividadTitulo": "Ceremonia de Apertura del COngreso i Oración por la Paz",
+                    "horaInicio": "21:00"
+                },
+                {
+                    "actividadTitulo": "Cena i Velada",
+                    "horaInicio": "22:00"
+                }
+            ]
+        },
+        {
+            "11 Octubre": [
+                {
+                    "actividadTitulo": "Desayuno",
+                    "horaInicio": "10:00"
+                },
+                {
+                    "actividadTitulo": "Recepción con autoridades municipales y visita guiada por el centro histórico",
+                    "informacionAdicional": "Para representantes, directores, pianistas y consiliarios",
+                    "horaInicio": "11:30",
+                    "horaFin": "13:30"
+                },
+                {
+                    "actividadTitulo": "Actividades lúdicas",
+                    "informacionAdicional": "Deportivas para los niños (gincana por el centro histórico, juegos en el hostal, etc...)",
+                    "horaInicio": "11:30",
+                    "horaFin": "13:30"
+                },
+                {
+                    "actividadTitulo": "Comida",
+                    "horaInicio": "14:00"
+                },
+                {
+                    "actividadTitulo": "Ensayo para los Coros",
+                    "horaInicio": "16:00",
+                    "horaFin": "19:00"
+                },
+                {
+                    "actividadTitulo": "Concierto de Gala en la Iglesia 'dels Socors'",
+                    "horaInicio": "20:00"
+                },
+                {
+                    "actividadTitulo": "Cena y Velada",
+                    "horaInicio": "22:00"
+                }
+            ]
+        },
+        {
+            "12 Octubre": [
+                {
+                    "actividadTitulo": "Desayuno y recogida de habitaciones",
+                    "horaInicio": "08:00"
+                },
+                {
+                    "actividadTitulo": "Ensayo para la Misa de Clausura",
+                    "horaInicio": "09:00"
+                },
+                {
+                    "actividadTitulo": "Misa de Clausura del Congreso en la Catedral de Menorca",
+                    "horaInicio": "10:00"
+                }
+            ]
+        }
+    ]
+}
