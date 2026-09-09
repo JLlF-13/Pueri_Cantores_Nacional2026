@@ -63,21 +63,29 @@ export const Header = () => {
       {/* Menú móvil */}
       {open && (
         <nav className="border-t border-[#D8B46A]/30 bg-[#123A63] md:hidden">
-          <a
-            href="/"
+          <Link
+            to="/Pueri_Cantores_Nacional2026/"
             className="block px-6 py-4 transition hover:bg-[#1B4E7A] hover:text-[#D8B46A]"
             onClick={() => setOpen(false)}
           >
             Inicio
-          </a>
+          </Link>
 
-          <a
-            href="/mapa"
+          <Link
+            to="/Pueri_Cantores_Nacional2026/map/"
             className="block px-6 py-4 transition hover:bg-[#1B4E7A] hover:text-[#D8B46A]"
             onClick={() => setOpen(false)}
           >
             Mapa
-          </a>
+          </Link>
+
+          <Link
+            to="/Pueri_Cantores_Nacional2026/map/"
+            className="block px-6 py-4 transition hover:bg-[#1B4E7A] hover:text-[#D8B46A]"
+            onClick={() => setOpen(false)}
+          >
+            Participantes
+          </Link>
         </nav>
       )}
     </header>
