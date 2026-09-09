@@ -36,14 +36,14 @@ export const Header = () => {
           </Link>
 
           <Link
-            to="/Pueri_Cantores_Nacional2026/map"
+            to="/Pueri_Cantores_Nacional2026/map/"
             className="transition duration-300 hover:text-[#D8B46A]"
           >
             Mapa
           </Link>
 
           <Link
-            to="/Pueri_Cantores_Nacional2026/map"
+            to="/Pueri_Cantores_Nacional2026/map/"
             className="transition duration-300 hover:text-[#D8B46A]"
           >
             Participantes
