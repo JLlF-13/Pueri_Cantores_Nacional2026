@@ -14,8 +14,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/Pueri_Cantores_Nacional2026/" element={<Home/>} />
-        <Route path="/Pueri_Cantores_Nacional2026/map" element={<Map/>} />
-        <Route path="/Pueri_Cantores_Nacional2026/participantes" element={<Participants/>} />
+        <Route path="/Pueri_Cantores_Nacional2026/map/" element={<Map/>} />
+        <Route path="/Pueri_Cantores_Nacional2026/participantes/" element={<Participants/>} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
