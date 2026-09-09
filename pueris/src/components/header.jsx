@@ -29,21 +29,21 @@ export const Header = () => {
         {/* Menú escritorio */}
         <nav className="hidden md:flex items-center gap-8 text-lg">
           <Link
-            to="/"
+            to="/Pueri_Cantores_Nacional2026/"
             className="transition duration-300 hover:text-[#D8B46A]"
           >
             Inicio
           </Link>
 
           <Link
-            to="/map"
+            to="/Pueri_Cantores_Nacional2026/map"
             className="transition duration-300 hover:text-[#D8B46A]"
           >
             Mapa
           </Link>
 
           <Link
-            to="/map"
+            to="/Pueri_Cantores_Nacional2026/map"
             className="transition duration-300 hover:text-[#D8B46A]"
           >
             Participantes

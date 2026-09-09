@@ -15,7 +15,7 @@ export const NotFound = () => {
         </p>
 
         <Link
-          to="/"
+          to="/Pueri_Cantores_Nacional2026/"
           className="mt-8 inline-block rounded-xl bg-[#123A63] px-6 py-3 text-sm font-bold text-white transition hover:bg-[#1B4E7A] active:scale-95 sm:text-base"
         >
           Inicio
