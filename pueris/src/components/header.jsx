@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { Link } from 'react-router-dom';
 
 export const Header = () => {
   const [open, setOpen] = useState(false);
@@ -27,19 +28,26 @@ export const Header = () => {
 
         {/* Menú escritorio */}
         <nav className="hidden md:flex items-center gap-8 text-lg">
-          <a
-            href="/"
+          <Link
+            to="/"
             className="transition duration-300 hover:text-[#D8B46A]"
           >
             Inicio
-          </a>
+          </Link>
 
-          <a
-            href="/mapa"
+          <Link
+            to="/map"
             className="transition duration-300 hover:text-[#D8B46A]"
           >
             Mapa
-          </a>
+          </Link>
+
+          <Link
+            to="/map"
+            className="transition duration-300 hover:text-[#D8B46A]"
+          >
+            Participantes
+          </Link>
         </nav>
 
         {/* Botón móvil */}

@@ -1,0 +1,154 @@
+{
+  "CongresoInformacion": [
+    {
+      "Puntos de Interes del Congreso": [
+        {
+          "nom": "Catedral de Menorca - Nuestra Señora del Roser",
+          "link": "https://www.openstreetmap.org/search?query=Catedral%20de%20Menorca%20Ciutadella",
+          "latitud": 40.00153,
+          "longitud": 3.83742
+        },
+        {
+          "nom": "Iglesia y Convento del Socors",
+          "link": "https://www.openstreetmap.org/search?query=Esglesia%20del%20Socors%20Ciutadella",
+          "latitud": 40.00102,
+          "longitud": 3.83880
+        },
+        {
+          "nom": "Sala Multifuncional de Ciutadella",
+          "link": "https://www.openstreetmap.org/search?query=Sala%20Multifuncional%20Ciutadella%20de%20Menorca#map=19/40.000377/3.845676",
+          "latitud": 40.000635,
+          "longitud": 3.846053
+        },
+        {
+          "nom": "Plaça des Born",
+          "link": "https://www.openstreetmap.org/search?query=Pla%C3%A7a%20des%20Born%20Ciutadella",
+          "latitud": 40.00104,
+          "longitud": 3.83712
+        },
+        {
+          "nom": "Plaça de ses Palmeres",
+          "link": "https://www.openstreetmap.org/search?query=Pla%C3%A7a%20de%20ses%20Palmeres%20Ciutadella",
+          "latitud": 40.00200,
+          "longitud": 3.83500
+        },
+        {
+          "nom": "Parroquia de Sant Antoni Maria Claret",
+          "link": "https://www.openstreetmap.org/search?query=Sant%20Antoni%20Maria%20Claret%20Ciutadella",
+          "latitud": 40.00000,
+          "longitud": 3.83300
+        },
+        {
+          "nom": "Parroquia de Sant Esteve",
+          "link": "https://www.openstreetmap.org/search?query=Parroquia%20Sant%20Esteve%20Ciutadella",
+          "latitud": 40.00200,
+          "longitud": 3.83600
+        },
+        {
+          "nom": "Parroquia de Sant Francesc d'Assís",
+          "link": "https://www.openstreetmap.org/search?query=Sant%20Francesc%20d%27Assis%20Ciutadella",
+          "latitud": 40.00110,
+          "longitud": 3.83670
+        },
+        {
+          "nom": "Parroquia de Sant Rafael",
+          "link": "https://www.openstreetmap.org/search?query=Parroquia%20Sant%20Rafael%20Ciutadella",
+          "latitud": 40.00000,
+          "longitud": 3.84000
+        }
+      ]
+    },
+    {
+      "Puntos de Interes General": [
+        {
+          "nom": "Ayuntamiento de Ciutadella",
+          "link": "https://www.openstreetmap.org/search?query=Ajuntament%20de%20Ciutadella",
+          "latitud": 40.00117,
+          "longitud": 3.83722
+        },
+        {
+          "nom": "Oficina de Turismo de Ciutadella",
+          "link": "https://www.openstreetmap.org/search?query=Oficina%20de%20Turismo%20Ciutadella%20Menorca",
+          "latitud": 40.00117,
+          "longitud": 3.83722
+        },
+        {
+          "nom": "Estación de Autobuses de Ciutadella - Plaça de sa Pau",
+          "link": "https://www.openstreetmap.org/search?query=Estacion%20de%20Autobuses%20Ciutadella%20Menorca",
+          "latitud": 39.998187,
+          "longitud": 3.839131
+        },
+        {
+          "nom": "Estación de Autobuses de Ciutadella - Via Perimetral",
+          "link": "https://www.openstreetmap.org/node/2988407094#map=19/40.001589/3.846014",
+          "latitud": 40.001589,
+          "longitud": 3.846014
+        },
+        {
+          "nom": "Centro de Salud Canal Salat",
+          "link": "https://www.openstreetmap.org/search?query=Canal+Salat&zoom=19&minlon=3.842529952526093&minlat=39.998433115854525&maxlon=3.846741020679474&maxlat=40.000307011617345#map=19/39.999371/3.844636",
+          "latitud": 39.999371,
+          "longitud": 3.844636
+        },
+        {
+          "nom": "Farmacia Llabrés",
+          "link": "https://www.openstreetmap.org/search?query=Farmacia%20Llabres%20Ciutadella",
+          "latitud": 40.00100,
+          "longitud": 3.83800
+        }
+      ]
+    },
+    {
+      "Turismo": [
+        {
+          "nom": "Palacio Can Salort",
+          "link": "https://www.openstreetmap.org/search?query=Can%20Salort%20Ciutadella",
+          "latitud": 40.00100,
+          "longitud": 3.83700
+        },
+        {
+          "nom": "Palacio Torre-Saura",
+          "link": "https://www.openstreetmap.org/search?query=Palacio%20Torre-Saura%20Ciutadella",
+          "latitud": 40.00080,
+          "longitud": 3.83730
+        },
+        {
+          "nom": "Palacio Can Olivar",
+          "link": "https://www.openstreetmap.org/search?query=Can%20Olivar%20Ciutadella",
+          "latitud": 40.00150,
+          "longitud": 3.83750
+        },
+        {
+          "nom": "Museo de Ciutadella - Can Saura",
+          "link": "https://www.openstreetmap.org/search?query=Museu%20Can%20Saura%20Ciutadella",
+          "latitud": 40.00120,
+          "longitud": 3.83870
+        },
+        {
+          "nom": "Museo Diocesano - El Socors",
+          "link": "https://www.openstreetmap.org/search?query=Museu%20Diocesa%20El%20Socors%20Ciutadella",
+          "latitud": 40.00102,
+          "longitud": 3.83880
+        },
+        {
+          "nom": "Museo Municipal - Bastió de sa Font",
+          "link": "https://www.openstreetmap.org/search?query=Bastio%20de%20sa%20Font%20Ciutadella",
+          "latitud": 40.00030,
+          "longitud": 3.83950
+        },
+        {
+          "nom": "Puerto de Ciutadella",
+          "link": "https://www.openstreetmap.org/search?query=Port%20de%20Ciutadella",
+          "latitud": 40.00000,
+          "longitud": 3.82700
+        },
+        {
+          "nom": "Castillo de Sant Nicolau",
+          "link": "https://www.openstreetmap.org/search?query=Castell%20de%20Sant%20Nicolau%20Ciutadella",
+          "latitud": 39.995647,
+          "longitud": 3.825773
+        }
+      ]
+    }
+  ]
+}

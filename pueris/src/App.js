@@ -5,6 +5,7 @@ import { Header } from './components/header';
 import { Home } from './pages/home';
 import { Map } from './pages/map';
 import { Participants } from './pages/participants';
+import { NotFound } from './pages/notfound';
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/map" element={<Map/>} />
-        <Route path="/participants" element={<Participants/>} />
+        <Route path="/participantes" element={<Participants/>} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );

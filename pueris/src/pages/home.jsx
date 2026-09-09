@@ -58,9 +58,9 @@ export const Home = () => {
       <section className="bg-[#123A63] px-4 py-10 text-white sm:px-6 sm:py-14">
         <div className="mx-auto max-w-7xl text-center">
 
-          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-[#D8B46A] sm:text-sm sm:tracking-[0.25em]">
+          {/*<p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-[#D8B46A] sm:text-sm sm:tracking-[0.25em]">
             Congreso Nacional 2026
-          </p>
+          </p>*/}
 
           <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
             Programa del Congreso
