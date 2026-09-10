@@ -43,11 +43,33 @@ export const Header = () => {
           </Link>
 
           <Link
-            to="/Pueri_Cantores_Nacional2026/map/"
+            to="/Pueri_Cantores_Nacional2026/participantes/"
             className="transition duration-300 hover:text-[#D8B46A]"
           >
             Participantes
           </Link>
+
+          <Link
+            to="/Pueri_Cantores_Nacional2026/telefonos/"
+            className="transition duration-300 hover:text-[#D8B46A]"
+          >
+            Telefonos
+          </Link>
+
+          <Link
+            to="/Pueri_Cantores_Nacional2026/partituras/"
+            className="transition duration-300 hover:text-[#D8B46A]"
+          >
+            Partituras
+          </Link>
+
+          <Link
+            to="/Pueri_Cantores_Nacional2026/galeria/"
+            className="transition duration-300 hover:text-[#D8B46A]"
+          >
+            Galeria
+          </Link>
+
         </nav>
 
         {/* Botón móvil */}
@@ -80,11 +102,35 @@ export const Header = () => {
           </Link>
 
           <Link
-            to="/Pueri_Cantores_Nacional2026/map/"
+            to="/Pueri_Cantores_Nacional2026/participantes/"
             className="block px-6 py-4 transition hover:bg-[#1B4E7A] hover:text-[#D8B46A]"
             onClick={() => setOpen(false)}
           >
             Participantes
+          </Link>
+
+          <Link
+            to="/Pueri_Cantores_Nacional2026/telefonos/"
+            className="block px-6 py-4 transition hover:bg-[#1B4E7A] hover:text-[#D8B46A]"
+            onClick={() => setOpen(false)}
+          >
+            Telefonos
+          </Link>
+
+          <Link
+            to="/Pueri_Cantores_Nacional2026/partituras/"
+            className="block px-6 py-4 transition hover:bg-[#1B4E7A] hover:text-[#D8B46A]"
+            onClick={() => setOpen(false)}
+          >
+            Partituras
+          </Link>
+
+          <Link
+            to="/Pueri_Cantores_Nacional2026/galeria/"
+            className="block px-6 py-4 transition hover:bg-[#1B4E7A] hover:text-[#D8B46A]"
+            onClick={() => setOpen(false)}
+          >
+            Galeria
           </Link>
         </nav>
       )}

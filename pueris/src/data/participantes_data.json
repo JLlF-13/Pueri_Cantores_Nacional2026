@@ -1,0 +1,68 @@
+{
+  "CongresoInformacion": [
+    {
+      "Pueri Cantores de la Catedral de Menorca": [
+        {
+          "localidad": "Ciutadella de Menorca",
+          "web": "https://puericantores.es/pueri-cantores-de-la-catedral-de-menorca/"
+        }
+      ]
+    },
+    {
+      "Pueri Cantores de la Catedral de Guadix": [
+        {
+          "localidad": "Guadix",
+          "web": "https://puericantores.es/coro-maria-briz-de-guadix/"
+        }
+      ]
+    },
+    {
+      "Coro Infantil Pedro Mena": [
+        {
+          "localidad": "Adra",
+          "web": "https://puericantores.es/coro-infantil-pedro-mena-de-adra/"
+        }
+      ]
+    },
+    {
+      "Escalonía `Pueri Cantores` de la Catedral de Burgos": [
+        {
+          "localidad": "Burgos",
+          "web": "https://catedraldeburgos.es/coros/"
+        }
+      ]
+    },
+    {
+      "Escalonía Pueri Cantores de la S.I. Catedral de Jaen": [
+        {
+          "localidad": "Jaén",
+          "web": "https://puericantores.es/escolania-de-la-s-i-catedral-de-jaen-2/"
+        }
+      ]
+    },
+    {
+      "Escalonía Nuestra Señora de la Encarnación": [
+        {
+          "localidad": "",
+          "web": ""
+        }
+      ]
+    },
+    {
+      "Coro Juvenil Santa Maria de Pineda de Mar": [
+        {
+          "localidad": "Pineda de Mar",
+          "web": ""
+        }
+      ]
+    },
+    {
+      "Coral Albada de Granollers": [
+        {
+          "localidad": "Granollers",
+          "web": ""
+        }
+      ]
+    }
+  ]
+}
