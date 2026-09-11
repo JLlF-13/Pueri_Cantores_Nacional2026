@@ -1,0 +1,47 @@
+{
+    "CongresoInformacion": [
+        {
+            "Canal Salat Urgencias": [
+                {
+                    "telefono": "971 48 01 12"
+                }
+            ]
+        },
+        {
+            "Policia Ciutadella": [
+                {
+                    "telefono": "971 38 07 87"
+                }
+            ]
+        },
+        {
+            "Farmacia x": [
+                {
+                    "telefono": "Ciutadella de Menorca"
+                }
+            ]
+        },
+        {
+            "Hotel": [
+                {
+                    "telefono": "Ciutadella de Menorca"
+                }
+            ]
+        },
+        {
+            "Ayuntamiento Ciutadella": [
+                {
+                    "telefono": "971 38 10 50"
+                }
+            ]
+        }
+        ,
+        {
+            "Cristina": [
+                {
+                    "telefono": "Ciutadella de Menorca"
+                }
+            ]
+        }
+    ]
+}
