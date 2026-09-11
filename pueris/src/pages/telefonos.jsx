@@ -3,7 +3,7 @@ import {
 } from "lucide-react";
 import data from "../data/telefonos_data.json";
 
-export const Participants = () => {
+export const Telefonos = () => {
   const participants = data.CongresoInformacion.flatMap((item) =>
     Object.entries(item).map(([title, info]) => ({
       title,
