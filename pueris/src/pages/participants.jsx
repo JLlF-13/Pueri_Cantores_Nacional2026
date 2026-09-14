@@ -35,20 +35,15 @@ export const Participants = () => {
             {participants.map((participant) => (
               <article
                 key={participant.title}
-                className="group flex min-h-[220px] flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg"
+                className="group flex min-h-[170px] flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg"
               >
-                {/* Icona */}
-                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50 text-[#123A63] transition-colors group-hover:bg-[#123A63] group-hover:text-white">
-                  <Globe className="h-6 w-6" />
-                </div>
-
                 {/* Títol */}
                 <h2 className="text-lg font-bold leading-snug text-slate-800">
                   {participant.title}
                 </h2>
 
                 {/* Informació */}
-                <div className="mt-auto space-y-3 pt-6">
+                <div className="mt-auto space-y-3">
                   {participant.localidad && (
                     <div className="flex items-center gap-2 text-sm text-slate-500">
                       <MapPin className="h-4 w-4 shrink-0 text-[#123A63]" />

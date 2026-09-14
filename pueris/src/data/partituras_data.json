@@ -1,0 +1,203 @@
+{
+    "CongresoInformacion": [
+        {
+            "Et in Terra Pax (Héctor Eliel Márquez)": [
+                {
+                    "Sprano 1": "1-soprano-blancas.mp3"
+                },
+                {
+                    "Soprano 2": "2-soprano2-blancas.mp3"
+                },
+                {
+                    "Alto Blancas 3": "3-alto-blancas.mp3"
+                },
+                {
+                    "Et in Terra Pax ALTO + ÓRGANO": "Et in Terra Pax ALTO + ÓRGANO.mp3"
+                },
+                {
+                    "Et in Terra Pax BAJO + ÓRGANO": "Et in Terra Pax BAJO + ÓRGANO.mp3"
+                },
+                {
+                    "Et in Terra Pax TENOR + ÓRGANO": "Et in Terra Pax TENOR + ÓRGANO.mp3"
+                },
+                {
+                    "Et in Terra Pax TUTTI": "Et in Terra Pax TUTTI.mp3"
+                }
+            ]
+        },
+        {
+            "Gloria (Vivaldi)": [
+                {
+                    "Gloria Vivaldi ALTO + PIANO": "Gloria Vivaldi ALTO + PIANO.mp3"
+                },
+                {
+                    "Gloria Vivaldi BAJO + PIANO": "Gloria Vivaldi BAJO + PIANO.mp3"
+                },
+                {
+                    "Gloria Vivaldi SOPRANO + PIANO": "Gloria Vivaldi SOPRANO + PIANO.mp3"
+                },
+                {
+                    "Gloria Vivaldi TENOR + PIANO": "Gloria Vivaldi TENOR + PIANO.mp3"
+                },
+                {
+                    "Gloria Vivaldi TUTTI": "Gloria Vivaldi TUTTI.mp3"
+                }
+            ]
+        },
+        {
+            "Heme Aqui (Frísina)": [
+                {
+                    "Heme Aquí ALTO + VOCES": "Heme Aquí ALTO + VOCES.mp3"
+                },
+                {
+                    "Heme Aquí BAJO + VOCES": "Heme Aquí BAJO + VOCES.mp3"
+                },
+                {
+                    "Heme Aquí SOPRANO + VOCES": "Heme Aquí SOPRANO + VOCES.mp3"
+                },
+                {
+                    "Heme Aquí TENOR + VOCES": "Heme Aquí TENOR + VOCES.mp3"
+                },
+                {
+                    "Heme Aquí TUTTI": "Heme Aquí TUTTI.mp3"
+                }
+            ]
+        },
+        {
+            "Himno del Congreso (Veritatem Facientes)": [
+                {
+                    "1 Soprano": "1-soprano.mp3"
+                },
+                {
+                    "2 Alto": "2-alto.mp3"
+                },
+                {
+                    "3 Tenor": "3-tenor.mp3"
+                },
+                {
+                    "4 Bass": "4-bass.mp3"
+                },
+                {
+                    "5 Accompaniment": "5-accompaniment.mp3"
+                },
+                {
+                    "Himno TUTTI": "Himno TUTTI.wav"
+                },
+                {
+                    "Veritatem facientes in caritatem ALTO + Piano": "Veritatem facientes in caritatem ALTO + Piano.mp3"
+                },
+                {
+                    "Veritatem facientes in caritatem BAJO + Piano": "Veritatem facientes in caritatem BAJO + Piano.mp3"
+                },
+                {
+                    "Veritatem facientes in caritatem SOPRANO + Piano": "Veritatem facientes in caritatem SOPRANO + Piano.mp3"
+                },
+                {
+                    "Veritatem facientes in caritatem TENOR + Piano": "Veritatem facientes in caritatem TENOR + Piano.mp3"
+                },
+                {
+                    "Veritatem facientes in caritatem TUTTI + Piano": "Veritatem facientes in caritatem TUTTI + Piano.mp3"
+                }
+            ]
+        },
+        {
+            "Misa Pueri Cantores España": [
+                {
+                    "Aleluya (Agustín Sánchez)": [
+                        {
+                            "Aleluya ALTO + ÓRGANO": "Aleluya ALTO + ÓRGANO.mp3"
+                        },
+                        {
+                            "Aleluya BAJO + ÓRGANO": "Aleluya BAJO + ÓRGANO.mp3"
+                        },
+                        {
+                            "Aleluya SOPRANO + ÓRGANO": "Aleluya SOPRANO + ÓRGANO.mp3"
+                        },
+                        {
+                            "Aleluya TENOR + ÓRGANO": "Aleluya TENOR + ÓRGANO.mp3"
+                        },
+                        {
+                            "Aleluya TUTTI": "Aleluya TUTTI.mp3"
+                        }
+                    ]
+                },
+                {
+                    "Cordero de Dios (Agustín Sánchez)": [
+                        {
+                            "Cordero de Dios ALTO + ÓRGANO": "Cordero de Dios ALTO + ÓRGANO.mp3"
+                        },
+                        {
+                            "Cordero de Dios SOPRANO + ÓRGANO": "Cordero de Dios SOPRANO + ÓRGANO.mp3"
+                        },
+                        {
+                            "Cordero de Dios SOPRANO II + ÓRGANO": "Cordero de Dios SOPRANO II + ÓRGANO.mp3"
+                        },
+                        {
+                            "Cordero de Dios TUTTI": "Cordero de Dios TUTTI.mp3"
+                        }
+                    ]
+                },
+                {
+                    "Gloria (Agustín Sánchez)": [
+                        {
+                            "Alto Solo": "Alto Solo.mp3"
+                        },
+                        {
+                            "Bajo Solo": "Bajo Solo.mp3"
+                        },
+                        {
+                            "Gloria ALTO + ORGANO": "Gloria ALTO + ORGANO.mp3"
+                        },
+                        {
+                            "Gloria BAJO + ORGANO": "Gloria BAJO + ORGANO.mp3"
+                        },
+                        {
+                            "Gloria SOPRANO + ORGANO": "Gloria SOPRANO + ORGANO.mp3"
+                        },
+                        {
+                            "Gloria TENOR + ORGANO": "Gloria TENOR + ORGANO.mp3"
+                        },
+                        {
+                            "Gloria TUTTI": "Gloria TUTTI.mp3"
+                        },
+                        {
+                            "Soprano Solo": "Soprano Solo.mp3"
+                        },
+                        {
+                            "Tenor Solo": "Tenor Solo.mp3"
+                        }
+                    ]
+                },
+                {
+                    "Santo (Agustín Sánchez)": [
+                        {
+                            "Santo ALTO + ÓRGANO": "Santo ALTO + ÓRGANO.mp3"
+                        },
+                        {
+                            "Santo SOPRANO + ÓRGANO": "Santo SOPRANO + ÓRGANO.mp3"
+                        },
+                        {
+                            "Santo TUTTI": "Santo TUTTI.mp3"
+                        }
+                    ]
+                },
+                {
+                    "Señor, ten piedad (Agustín Sánchez)": [
+                        {
+                            "Señor, ten piedad ALTO + ORGANO": "Señor, ten piedad ALTO + ORGANO.mp3"
+                        },
+                        {
+                            "Señor, ten piedad SOPRANO I + ORGANO": "Señor, ten piedad SOPRANO I + ORGANO.mp3"
+                        },
+                        {
+                            "Señor, ten piedad SOPRANO II + ORGANO": "Señor, ten piedad SOPRANO II + ORGANO.mp3"
+                        },
+                        {
+                            "Señor, ten piedad TUTTI": "Señor, ten piedad TUTTI.mp3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

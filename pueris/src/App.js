@@ -7,6 +7,7 @@ import { Map } from './pages/map';
 import { Participants } from './pages/participants';
 import { NotFound } from './pages/notfound';
 import { Telefonos } from './pages/telefonos';
+import { Partituras } from './pages/partituras';
 
 
 function App() {
@@ -18,8 +19,8 @@ function App() {
         <Route path="/Pueri_Cantores_Nacional2026/map/" element={<Map/>} />
         <Route path="/Pueri_Cantores_Nacional2026/participantes/" element={<Participants/>} />
         <Route path="/Pueri_Cantores_Nacional2026/telefonos/" element={<Telefonos/>} />
-        <Route path="/Pueri_Cantores_Nacional2026/partituras/" element={<Map/>} />
-        <Route path="/Pueri_Cantores_Nacional2026/Galeria/" element={<Map/>} />
+        <Route path="/Pueri_Cantores_Nacional2026/partituras/" element={<Partituras/>} />
+        <Route path="/Pueri_Cantores_Nacional2026/galeria/" element={<Map/>} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
