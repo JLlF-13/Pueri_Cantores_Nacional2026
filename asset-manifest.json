@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pueri_Cantores_Nacional2026/static/css/main.0b3c70b1.css",
-    "main.js": "/Pueri_Cantores_Nacional2026/static/js/main.c62542f0.js",
+    "main.js": "/Pueri_Cantores_Nacional2026/static/js/main.e497ee83.js",
     "static/js/453.5df645b5.chunk.js": "/Pueri_Cantores_Nacional2026/static/js/453.5df645b5.chunk.js",
     "static/media/Himno TUTTI.wav?url": "/Pueri_Cantores_Nacional2026/static/media/Himno TUTTI.fa7b4b4853534cf97251.wav",
     "static/media/Veritatem facientes in caritatem ALTO + Piano.mp3?url": "/Pueri_Cantores_Nacional2026/static/media/Veritatem facientes in caritatem ALTO + Piano.f1b10a5116957d1736c7.mp3",
@@ -57,14 +57,16 @@
     "static/media/2-soprano2-blancas.mp3?url": "/Pueri_Cantores_Nacional2026/static/media/2-soprano2-blancas.c1ca06a1640a63eacd35.mp3",
     "static/media/1-soprano-blancas.mp3?url": "/Pueri_Cantores_Nacional2026/static/media/1-soprano-blancas.266fb0a3b2cd3d3cd136.mp3",
     "static/media/3-alto-blancas.mp3?url": "/Pueri_Cantores_Nacional2026/static/media/3-alto-blancas.fa4d88d80672a8667f32.mp3",
+    "static/media/LogoMenorca.jpg?url": "/Pueri_Cantores_Nacional2026/static/media/LogoMenorca.2f63295ef6358043099d.jpg",
+    "static/media/LogoCongreso.jpg?url": "/Pueri_Cantores_Nacional2026/static/media/LogoCongreso.3d786231290765762fda.jpg",
     "static/media/logo.svg": "/Pueri_Cantores_Nacional2026/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Pueri_Cantores_Nacional2026/index.html",
     "main.0b3c70b1.css.map": "/Pueri_Cantores_Nacional2026/static/css/main.0b3c70b1.css.map",
-    "main.c62542f0.js.map": "/Pueri_Cantores_Nacional2026/static/js/main.c62542f0.js.map",
+    "main.e497ee83.js.map": "/Pueri_Cantores_Nacional2026/static/js/main.e497ee83.js.map",
     "453.5df645b5.chunk.js.map": "/Pueri_Cantores_Nacional2026/static/js/453.5df645b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b3c70b1.css",
-    "static/js/main.c62542f0.js"
+    "static/js/main.e497ee83.js"
   ]
 }
