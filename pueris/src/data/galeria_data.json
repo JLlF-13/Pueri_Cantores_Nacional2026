@@ -1,0 +1,15 @@
+{
+  "Galeria": [
+    {
+      "Logos": [
+        "LogoMenorca.jpg",
+        "LogoCongreso.jpg"
+      ]
+    },
+    {
+      "Test": [
+        "LogoMenorca.jpg"
+      ]
+    }
+  ]
+}
