@@ -22,6 +22,8 @@ function App() {
         <Route path="/Pueri_Cantores_Nacional2026/telefonos/" element={<Telefonos/>} />
         <Route path="/Pueri_Cantores_Nacional2026/partituras/" element={<Partituras/>} />
         <Route path="/Pueri_Cantores_Nacional2026/galeria/" element={<Galeria/>} />
+        <Route path="/Pueri_Cantores_Nacional2026/prensa/" element={<Galeria/>} /> 
+        /*dress codre*/
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

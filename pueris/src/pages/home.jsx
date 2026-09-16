@@ -195,8 +195,8 @@ export const Home = () => {
                       </h3>
 
                       {actividad.informacionAdicional && (
-                        <p className="mt-2 text-sm leading-relaxed text-slate-600 sm:text-base">
-                          {actividad.informacionAdicional}
+                        <p style={{ whiteSpace: "pre-line" }}>
+                            {actividad.informacionAdicional}
                         </p>
                       )}
 

@@ -12,37 +12,44 @@ import "leaflet/dist/leaflet.css";
 
 import data from "../data/map_data.json";
 
-
 // =====================================================
 // ICONA PERSONALITZADA
 // =====================================================
 
-const markerIcon = L.divIcon({
-  className: "custom-marker",
-  html: `
-    <div style="
-      width: 32px;
-      height: 32px;
-      background: #123A63;
-      border: 3px solid white;
-      border-radius: 50% 50% 50% 0;
-      transform: rotate(-45deg);
-      box-shadow: 0 2px 6px rgba(0,0,0,0.35);
-    ">
-      <div style="
-        width: 10px;
-        height: 10px;
-        background: #D8B46A;
-        border-radius: 50%;
-        position: absolute;
-        top: 8px;
-        left: 8px;
-      "></div>
-    </div>
-  `,
-  iconSize: [32, 32],
-  iconAnchor: [16, 32],
-  popupAnchor: [0, -32],
+// const markerIcon = L.divIcon({
+//   className: "custom-marker",
+//   html: `
+//     <div style="
+//       width: 32px;
+//       height: 32px;
+//       background: #123A63;
+//       border: 3px solid white;
+//       border-radius: 50% 50% 50% 0;
+//       transform: rotate(-45deg);
+//       box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+//     ">
+//       <div style="
+//         width: 10px;
+//         height: 10px;
+//         background: #D8B46A;
+//         border-radius: 50%;
+//         position: absolute;
+//         top: 8px;
+//         left: 8px;
+//       "></div>
+//     </div>
+//   `,
+//   iconSize: [32, 32],
+//   iconAnchor: [16, 32],
+//   popupAnchor: [0, -32],
+// });
+
+const markerIcon = L.icon({
+  iconUrl: `${process.env.PUBLIC_URL}/Pueri_icon.svg`,
+  iconSize: [30, 30],
+  iconAnchor: [20, 40],
+  popupAnchor: [0, -40],
+  alt: "Pueris"
 });
 
 
@@ -288,7 +295,7 @@ export const Map = () => {
 
               <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">Open Street Maps</a> contributors'
               />
 
 
@@ -353,7 +360,7 @@ export const Map = () => {
                             fontSize: "13px",
                           }}
                         >
-                          Ver en OpenStreetMap
+                          Ver en Google Maps
                         </a>
 
                       </div>

@@ -4,7 +4,7 @@
       "Pueri Cantores de la Catedral de Menorca": [
         {
           "localidad": "Ciutadella de Menorca",
-          "web": "https://puericantores.es/pueri-cantores-de-la-catedral-de-menorca/"
+          "web": "https://www.puericantoresmenorca.es/"
         }
       ]
     },
@@ -28,6 +28,14 @@
       "Escalonía `Pueri Cantores` de la Catedral de Burgos": [
         {
           "localidad": "Burgos",
+          "web": "https://catedraldeburgos.es/coros/"
+        }
+      ]
+    },
+    {
+      "Escalonía S.L. Catedral y C.D. Santo Domingo": [
+        {
+          "localidad": "Orihuela",
           "web": "https://catedraldeburgos.es/coros/"
         }
       ]
@@ -60,6 +68,14 @@
       "Coral Albada de Granollers": [
         {
           "localidad": "Granollers",
+          "web": ""
+        }
+      ]
+    },
+    {
+      "Chór Chlopiecy Bazyliki Matki Boskeij Bolesnej": [
+        {
+          "localidad": "Polonia",
           "web": ""
         }
       ]
