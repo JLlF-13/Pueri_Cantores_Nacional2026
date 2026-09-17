@@ -3,16 +3,16 @@
     {
       "Puntos de Interes del Congreso": [
         {
-          "nom": "Catedral de Menorca - Nuestra Señora del Roser",
+          "nom": "Catedral de Menorca",
           "link": "https://www.openstreetmap.org/search?query=Catedral%20de%20Menorca%20Ciutadella",
           "latitud": 40.00153,
           "longitud": 3.83742
         },
         {
           "nom": "Iglesia y Convento del Socors",
-          "link": "https://www.openstreetmap.org/search?query=Esglesia%20del%20Socors%20Ciutadella",
-          "latitud": 40.00102,
-          "longitud": 3.83880
+          "link": "https://maps.app.goo.gl/hZ2hcY8LjbyrdXow5",
+          "latitud": 40.00154,
+          "longitud": 3.837679
         },
         {
           "nom": "Sala Multifuncional de Ciutadella",
@@ -21,40 +21,40 @@
           "longitud": 3.846053
         },
         {
-          "nom": "Plaça des Born",
-          "link": "https://www.openstreetmap.org/search?query=Pla%C3%A7a%20des%20Born%20Ciutadella",
-          "latitud": 40.00104,
-          "longitud": 3.83712
+          "nom": "Plaça des Born", 
+          "link": "https://maps.app.goo.gl/xXgnSnN2KLqUjhb86",
+          "latitud": 40.00083,
+          "longitud": 3.83612
         },
         {
           "nom": "Plaça de ses Palmeres",
-          "link": "https://www.openstreetmap.org/search?query=Pla%C3%A7a%20de%20ses%20Palmeres%20Ciutadella",
-          "latitud": 40.00200,
-          "longitud": 3.83500
+          "link": "https://maps.app.goo.gl/ZeB4Vm9nz8iYwjpr7",
+          "latitud": 40.00231,
+          "longitud": 3.8402349
         },
         {
           "nom": "Parroquia de Sant Antoni Maria Claret",
-          "link": "https://www.openstreetmap.org/search?query=Sant%20Antoni%20Maria%20Claret%20Ciutadella",
-          "latitud": 40.00000,
-          "longitud": 3.83300
+          "link": "https://maps.app.goo.gl/YCM2KpGqMRYzZZubA",
+          "latitud": 40.004173,
+          "longitud": 3.8433655
         },
         {
           "nom": "Parroquia de Sant Esteve",
-          "link": "https://www.openstreetmap.org/search?query=Parroquia%20Sant%20Esteve%20Ciutadella",
-          "latitud": 40.00200,
-          "longitud": 3.83600
+          "link": "https://maps.app.goo.gl/s5zBULjZUgZXJ1h96",
+          "latitud": 39.9968812,
+          "longitud": 3.8332314
         },
         {
           "nom": "Parroquia de Sant Francesc d'Assís",
-          "link": "https://www.openstreetmap.org/search?query=Sant%20Francesc%20d%27Assis%20Ciutadella",
-          "latitud": 40.00110,
-          "longitud": 3.83670
+          "link": "https://maps.app.goo.gl/uXuosPerDVQSAxZ2A",
+          "latitud": 40.0005,
+          "longitud": 3.8370
         },
         {
-          "nom": "Parroquia de Sant Rafael",
-          "link": "https://www.openstreetmap.org/search?query=Parroquia%20Sant%20Rafael%20Ciutadella",
-          "latitud": 40.00000,
-          "longitud": 3.84000
+          "nom": "Parroquia de Sant Rafael", 
+          "link": "https://maps.app.goo.gl/A7yo14YkpxrGLdd16",
+          "latitud": 39.9985158,
+          "longitud": 3.8414803
         },
         {
           "nom": "Estación de Autobuses de Ciutadella - Via Perimetral (Parada de los Coros)",
@@ -74,15 +74,15 @@
       "Puntos de Interes General": [
         {
           "nom": "Ayuntamiento de Ciutadella",
-          "link": "https://www.openstreetmap.org/search?query=Ajuntament%20de%20Ciutadella",
-          "latitud": 40.00117,
-          "longitud": 3.83722
+          "link": "https://maps.app.goo.gl/8pRQLCFMFFAQfuSq9",
+          "latitud": 40.00065,
+          "longitud": 3.83585
         },
         {
           "nom": "Oficina de Turismo de Ciutadella",
-          "link": "https://www.openstreetmap.org/search?query=Oficina%20de%20Turismo%20Ciutadella%20Menorca",
-          "latitud": 40.00117,
-          "longitud": 3.83722
+          "link": "https://maps.app.goo.gl/sTfng193ncuR4AQU8",
+          "latitud": 40.00043,
+          "longitud": 3.83585
         },
         {
           "nom": "Estación de Autobuses de Ciutadella - Plaça de sa Pau",
@@ -127,8 +127,8 @@
         {
           "nom": "Museo Diocesano - El Socors",
           "link": "https://www.openstreetmap.org/search?query=Museu%20Diocesa%20El%20Socors%20Ciutadella",
-          "latitud": 40.00102,
-          "longitud": 3.83880
+          "latitud": 40.00154,
+          "longitud": 3.83901
         },
         {
           "nom": "Museo Municipal - Bastió de sa Font",

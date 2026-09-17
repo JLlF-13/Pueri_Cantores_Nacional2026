@@ -1,6 +1,4 @@
-import {
-  PhoneCallIcon
-} from "lucide-react";
+import { PhoneCallIcon } from "lucide-react";
 import data from "../data/telefonos_data.json";
 
 export const Telefonos = () => {
@@ -8,11 +6,22 @@ export const Telefonos = () => {
     Object.entries(item).map(([title, info]) => ({
       title,
       telefono: info[0]?.telefono ?? "",
-    }))
+    })),
   );
 
   return (
     <main className="min-h-screen bg-slate-50">
+      <section className="bg-[#123A63] px-4 py-10 text-white sm:px-6 sm:py-14">
+        <div className="mx-auto max-w-7xl text-center">
+          <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
+            Telefonos
+          </h1>
+
+          <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-blue-100 sm:mt-4 sm:text-lg">
+            Telefonos de interes para el congreso
+          </p>
+        </div>
+      </section>
 
       <section className="px-4 py-10 sm:px-6 sm:py-14">
         <div className="mx-auto max-w-7xl">
@@ -22,7 +31,6 @@ export const Telefonos = () => {
                 key={participant.title}
                 className="group flex min-h-[120px] flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg"
               >
-
                 {/* Títol */}
                 <h2 className="text-lg font-bold leading-snug text-slate-800">
                   {participant.title}
@@ -36,7 +44,6 @@ export const Telefonos = () => {
                       <span>{participant.telefono}</span>
                     </div>
                   )}
-
                 </div>
               </article>
             ))}

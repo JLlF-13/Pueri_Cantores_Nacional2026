@@ -1,14 +1,59 @@
 {
   "Galeria": [
     {
-      "Logos": [
-        "LogoMenorca.jpg",
-        "LogoCongreso.jpg"
+      "Participantes": [
+        {
+          "imagen": "LogoMenorca.jpg",
+          "descripcion": "Logo de Menorca."
+        },
+        {
+          "imagen": "LogoCongreso.jpg",
+          "descripcion": "Logo del Congreso Nacional de Pueri Cantores."
+        }
       ]
     },
     {
-      "Test": [
-        "LogoMenorca.jpg"
+      "Pegatinas": [
+        {
+          "imagen": "Pegatinas/Pegatinas_01.png",
+          "descripcion": "Pegatina del Congreso Nacional de Pueri Cantores."
+        },
+        {
+          "imagen": "Pegatinas/Pegatinas_02.png",
+          "descripcion": "Diseño de pegatina del Congreso."
+        },
+        {
+          "imagen": "Pegatinas/Pegatinas_03.png",
+          "descripcion": "Diseño de pegatina del Congreso."
+        },
+        {
+          "imagen": "Pegatinas/Pegatinas_04.png",
+          "descripcion": "Diseño de pegatina del Congreso."
+        },
+        {
+          "imagen": "Pegatinas/Pegatinas_05.png",
+          "descripcion": "Diseño de pegatina del Congreso."
+        },
+        {
+          "imagen": "Pegatinas/Pegatinas_06.png",
+          "descripcion": "Diseño de pegatina del Congreso."
+        },
+        {
+          "imagen": "Pegatinas/Pegatinas_07.png",
+          "descripcion": "Diseño de pegatina del Congreso."
+        },
+        {
+          "imagen": "Pegatinas/Pegatinas_08.png",
+          "descripcion": "Diseño de pegatina del Congreso."
+        },
+        {
+          "imagen": "Pegatinas/Pegatinas_09.png",
+          "descripcion": "Diseño de pegatina del Congreso."
+        },
+        {
+          "imagen": "Pegatinas/Pegatinas_10.png",
+          "descripcion": "Diseño de pegatina del Congreso."
+        }
       ]
     }
   ]

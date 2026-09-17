@@ -18,7 +18,7 @@ export const Header = () => {
 
           <div className="hidden sm:block">
             <h1 className="text-lg font-bold tracking-wide">
-              Pueri Cantores - Veridatem
+              Pueri Cantores - Veritatem
             </h1>
             <p className="text-sm text-[#D8B46A]">
               Congreso Nacional 2026 

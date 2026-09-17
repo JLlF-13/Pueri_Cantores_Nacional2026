@@ -4,7 +4,7 @@ import data from "../data/galeria_data.json";
 
 // Carregar totes les imatges de data/img
 const imagenesImportadas = import.meta.glob(
-  "../data/img/*.{jpg,jpeg,png,webp}",
+  "../data/img/**/*.{jpg,jpeg,png,webp}",
   {
     eager: true,
     query: "?url",
@@ -30,13 +30,9 @@ export const Galeria = () => {
   // Galeria actual
   const galeriaActual = galerias[galeriaSeleccionada];
 
-  const tituloGaleria = galeriaActual
-    ? Object.keys(galeriaActual)[0]
-    : "";
+  const tituloGaleria = galeriaActual ? Object.keys(galeriaActual)[0] : "";
 
-  const nombresImagenes = galeriaActual
-    ? galeriaActual[tituloGaleria]
-    : [];
+  const nombresImagenes = galeriaActual ? galeriaActual[tituloGaleria] : [];
 
   // Canviar de galeria
   const cambiarGaleria = (indice) => {
@@ -47,27 +43,29 @@ export const Galeria = () => {
   // Imatge anterior
   const anterior = () => {
     setImagenSeleccionada((actual) =>
-      actual === 0 ? nombresImagenes.length - 1 : actual - 1
+      actual === 0 ? nombresImagenes.length - 1 : actual - 1,
     );
   };
 
   // Imatge següent
   const siguiente = () => {
     setImagenSeleccionada((actual) =>
-      actual === nombresImagenes.length - 1 ? 0 : actual + 1
+      actual === nombresImagenes.length - 1 ? 0 : actual + 1,
     );
   };
 
-  const nombreImagenActual = nombresImagenes[imagenSeleccionada];
+  const imagenSeleccionadaActual = nombresImagenes[imagenSeleccionada];
+
+  const nombreImagenActual = imagenSeleccionadaActual?.imagen;
+  const descripcionActual = imagenSeleccionadaActual?.descripcion || "";
+
   const imagenActual = obtenerImagen(nombreImagenActual);
 
   return (
     <main className="min-h-screen bg-slate-50">
-
       {/* HERO */}
       <section className="bg-[#123A63] px-4 py-10 text-white sm:px-6 sm:py-14">
         <div className="mx-auto max-w-7xl text-center">
-
           <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
             Galería
           </h1>
@@ -75,18 +73,14 @@ export const Galeria = () => {
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-blue-100 sm:mt-4 sm:text-lg">
             Recuerdos y momentos del Congreso Nacional de Pueri Cantores.
           </p>
-
         </div>
       </section>
 
       {/* SELECTOR DE GALERÍAS */}
       <section className="px-3 py-5 sm:px-6 sm:py-8">
         <div className="mx-auto max-w-5xl">
-
           <div className="rounded-2xl bg-white p-2 shadow-lg ring-1 ring-slate-200 sm:p-4">
-
             <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4">
-
               {galerias.map((galeria, index) => {
                 const titulo = Object.keys(galeria)[0];
                 const activa = index === galeriaSeleccionada;
@@ -105,21 +99,16 @@ export const Galeria = () => {
                   </button>
                 );
               })}
-
             </div>
-
           </div>
-
         </div>
       </section>
 
       {/* CARRUSEL */}
       <section className="px-3 pb-12 sm:px-6 sm:pb-16">
         <div className="mx-auto max-w-5xl">
-
           {/* TÍTULO */}
           <div className="mb-5 flex items-center gap-3 sm:mb-7 sm:gap-4">
-
             <div className="h-10 w-1 shrink-0 rounded-full bg-[#D8B46A] sm:h-12" />
 
             <div>
@@ -131,22 +120,19 @@ export const Galeria = () => {
                 {tituloGaleria}
               </h2>
             </div>
-
           </div>
 
           {/* CARRUSEL */}
           {nombresImagenes.length > 0 ? (
             <>
               <div className="relative overflow-hidden rounded-2xl bg-white shadow-lg ring-1 ring-slate-200">
-
                 {/* IMAGEN */}
                 <div className="relative flex aspect-video items-center justify-center bg-slate-200">
-
                   {imagenActual ? (
                     <img
                       src={imagenActual}
                       alt={`${tituloGaleria} - imagen ${imagenSeleccionada + 1}`}
-                      className="h-full w-full object-cover"
+                      className="h-full w-full object-contain"
                     />
                   ) : (
                     <p className="text-sm text-slate-400">
@@ -175,38 +161,38 @@ export const Galeria = () => {
                       <ChevronRight size={24} />
                     </button>
                   )}
-
                 </div>
 
                 {/* INFORMACIÓN */}
-                <div className="flex items-center justify-between gap-4 px-4 py-4 sm:px-6 sm:py-5">
-
-                  <div>
+                <div className="flex items-start justify-between gap-4 px-4 py-4 sm:px-6 sm:py-5">
+                  <div className="min-w-0">
                     <p className="text-sm font-semibold text-[#123A63]">
                       {tituloGaleria}
                     </p>
+
+                    {descripcionActual && (
+                      <p className="mt-1 text-sm leading-relaxed text-slate-500">
+                        {descripcionActual}
+                      </p>
+                    )}
                   </div>
 
                   <span className="shrink-0 rounded-lg bg-slate-100 px-3 py-2 text-xs font-semibold text-[#123A63] sm:text-sm">
                     {imagenSeleccionada + 1} / {nombresImagenes.length}
                   </span>
-
                 </div>
-
               </div>
 
               {/* MINIATURAS */}
               {nombresImagenes.length > 1 && (
                 <div className="mt-4 grid grid-cols-3 gap-2 sm:mt-5 sm:grid-cols-5 sm:gap-3">
-
-                  {nombresImagenes.map((nombreImagen, index) => {
-
-                    const imagen = obtenerImagen(nombreImagen);
+                  {nombresImagenes.map((item, index) => {
+                    const imagen = obtenerImagen(item.imagen);
                     const activa = index === imagenSeleccionada;
 
                     return (
                       <button
-                        key={nombreImagen}
+                        key={item.imagen}
                         onClick={() => setImagenSeleccionada(index)}
                         className={`aspect-video overflow-hidden rounded-xl transition ${
                           activa
@@ -215,7 +201,6 @@ export const Galeria = () => {
                         }`}
                         aria-label={`Ver imagen ${index + 1}`}
                       >
-
                         {imagen ? (
                           <img
                             src={imagen}
@@ -229,15 +214,11 @@ export const Galeria = () => {
                             </span>
                           </div>
                         )}
-
                       </button>
                     );
-
                   })}
-
                 </div>
               )}
-
             </>
           ) : (
             <div className="rounded-2xl bg-white px-5 py-10 text-center shadow-sm ring-1 ring-slate-200">
@@ -246,10 +227,8 @@ export const Galeria = () => {
               </p>
             </div>
           )}
-
         </div>
       </section>
-
     </main>
   );
 };
