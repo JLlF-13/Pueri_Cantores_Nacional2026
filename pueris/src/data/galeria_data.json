@@ -3,12 +3,44 @@
     {
       "Participantes": [
         {
-          "imagen": "LogoMenorca.jpg",
-          "descripcion": "Logo de Menorca."
+          "imagen": "Coros/Coros_01.png",
+          "descripcion": "Pueri Cantores de la Catedral de Guadix"
         },
         {
-          "imagen": "LogoCongreso.jpg",
-          "descripcion": "Logo del Congreso Nacional de Pueri Cantores."
+          "imagen": "Coros/Coros_02.png",
+          "descripcion": "Pueri Cantores de la Catedral de Menorca"
+        },
+        {
+          "imagen": "Coros/Coros_03.png",
+          "descripcion": "Coro Infantil Pedro Mena"
+        },
+        {
+          "imagen": "Coros/Coros_04.png",
+          "descripcion": "Escalonía `Pueri Cantores` de la Catedral de Burgos"
+        },
+        {
+          "imagen": "Coros/Coros_05.png",
+          "descripcion": "Escalonía S.L. Catedral y C.D. Santo Domingo"
+        },
+        {
+          "imagen": "Coros/Coros_06.png",
+          "descripcion": "Escalonía Pueri Cantores de la S.I. Catedral de Jaén"
+        },
+        {
+          "imagen": "Coros/Coros_07.png",
+          "descripcion": "Escalonía Nuestra Señora de la Encarnación"
+        },
+        {
+          "imagen": "Coros/Coros_08.png",
+          "descripcion": "Coro Juvenil Santa Maria de Pineda de Mar"
+        },
+        {
+          "imagen": "Coros/Coros_09.png",
+          "descripcion": "Coral Albada de Granollers"
+        },
+        {
+          "imagen": "Coros/Coros_10.png",
+          "descripcion": "Chór Chłopięcy Bazyliki Matki Boskiej Bolesnej"
         }
       ]
     },
@@ -16,43 +48,43 @@
       "Pegatinas": [
         {
           "imagen": "Pegatinas/Pegatinas_01.png",
-          "descripcion": "Pegatina del Congreso Nacional de Pueri Cantores."
+          "descripcion": "Pegatina de Pueri Cantores de la Catedral de Guadix"
         },
         {
           "imagen": "Pegatinas/Pegatinas_02.png",
-          "descripcion": "Diseño de pegatina del Congreso."
+          "descripcion": "Pegatina de Pueri Cantores de la Catedral de Menorca"
         },
         {
           "imagen": "Pegatinas/Pegatinas_03.png",
-          "descripcion": "Diseño de pegatina del Congreso."
+          "descripcion": "Pegatina de Coro Infantil Pedro Mena"
         },
         {
           "imagen": "Pegatinas/Pegatinas_04.png",
-          "descripcion": "Diseño de pegatina del Congreso."
+          "descripcion": "Pegatina de Escalonía `Pueri Cantores` de la Catedral de Burgos"
         },
         {
           "imagen": "Pegatinas/Pegatinas_05.png",
-          "descripcion": "Diseño de pegatina del Congreso."
+          "descripcion": "Pegatina de Escalonía S.L. Catedral y C.D. Santo Domingo"
         },
         {
           "imagen": "Pegatinas/Pegatinas_06.png",
-          "descripcion": "Diseño de pegatina del Congreso."
+          "descripcion": "Pegatina de Escalonía Pueri Cantores de la S.I. Catedral de Jaén"
         },
         {
           "imagen": "Pegatinas/Pegatinas_07.png",
-          "descripcion": "Diseño de pegatina del Congreso."
+          "descripcion": "Pegatina de Escalonía Nuestra Señora de la Encarnación"
         },
         {
           "imagen": "Pegatinas/Pegatinas_08.png",
-          "descripcion": "Diseño de pegatina del Congreso."
+          "descripcion": "Pegatina Coro Juvenil Santa Maria de Pineda de Mar"
         },
         {
           "imagen": "Pegatinas/Pegatinas_09.png",
-          "descripcion": "Diseño de pegatina del Congreso."
+          "descripcion": "Pegatina de Coral Albada de Granollers"
         },
         {
           "imagen": "Pegatinas/Pegatinas_10.png",
-          "descripcion": "Diseño de pegatina del Congreso."
+          "descripcion": "pegatina de Chór Chłopięcy Bazyliki Matki Boskiej Bolesnej"
         }
       ]
     }

@@ -4,7 +4,9 @@
       "Pueri Cantores de la Catedral de Menorca": [
         {
           "localidad": "Ciutadella de Menorca",
-          "web": "https://www.puericantoresmenorca.es/"
+          "web": "https://www.puericantoresmenorca.es/",
+          "facebook": "https://www.facebook.com/pccatedralmenorca/",
+          "instagram": "https://www.instagram.com/pccatedralmenorca/"
         }
       ]
     },
@@ -12,7 +14,9 @@
       "Pueri Cantores de la Catedral de Guadix": [
         {
           "localidad": "Guadix",
-          "web": "https://puericantores.es/coro-maria-briz-de-guadix/"
+          "facebook": "https://www.facebook.com/Puericantorescatedraldeguadix/",
+          "instagram":""
+
         }
       ]
     },
@@ -20,7 +24,8 @@
       "Coro Infantil Pedro Mena": [
         {
           "localidad": "Adra",
-          "web": "https://puericantores.es/coro-infantil-pedro-mena-de-adra/"
+          "facebook": "https://www.facebook.com/p/Coro-Infantil-PEDRO-MENA-ADRA-100063605139475/",
+          "instagram":""
         }
       ]
     },
@@ -28,7 +33,9 @@
       "Escalonía `Pueri Cantores` de la Catedral de Burgos": [
         {
           "localidad": "Burgos",
-          "web": "https://puericantores.es/escolania-pueri-cantores-de-la-catedral-de-burgos/"
+          "web": "https://puericantores.es/escolania-pueri-cantores-de-la-catedral-de-burgos/",
+          "facebook":"",
+          "instagram":""
         }
       ]
     },
@@ -36,15 +43,18 @@
       "Escalonía S.L. Catedral y C.D. Santo Domingo": [
         {
           "localidad": "Orihuela",
-          "web": "https://www.cdsantodomingo.com/escolania/"
+          "facebook": "https://www.facebook.com/escolaniacatedralorihuela/?locale=es_ES",
+          "instagram": "https://www.instagram.com/escolania_catedralorihuela/"
         }
       ]
     },
     {
-      "Escalonía Pueri Cantores de la S.I. Catedral de Jaen": [
+      "Escalonía Pueri Cantores de la S.I. Catedral de Jaén": [
         {
           "localidad": "Jaén",
-          "web": "https://puericantores.es/escolania-de-la-s-i-catedral-de-jaen-2/"
+          "web": "https://www.facebook.com/escolaniacatedraljaen/?locale=es_ES",
+          "facebook":"",
+          "instagram":""
         }
       ]
     },
@@ -52,7 +62,9 @@
       "Escalonía Nuestra Señora de la Encarnación": [
         {
           "localidad": "",
-          "web": ""
+          "web": "",
+          "facebook":"",
+          "instagram":""
         }
       ]
     },
@@ -60,7 +72,9 @@
       "Coro Juvenil Santa Maria de Pineda de Mar": [
         {
           "localidad": "Pineda de Mar",
-          "web": ""
+          "web": "https://www.facebook.com/coral.j.santamaria/",
+          "facebook":"",
+          "instagram":""
         }
       ]
     },
@@ -68,7 +82,9 @@
       "Coral Albada de Granollers": [
         {
           "localidad": "Granollers",
-          "web": ""
+          "web": "",
+          "facebook":"",
+          "instagram":""
         }
       ]
     },
@@ -76,7 +92,9 @@
       "Chór Chłopięcy Bazyliki Matki Boskiej Bolesnej": [
         {
           "localidad": "Polonia",
-          "web": "https://pc-limanowa.pl/"
+          "web": "https://pc-limanowa.pl/",
+          "facebook":"",
+          "instagram":""
         }
       ]
     }

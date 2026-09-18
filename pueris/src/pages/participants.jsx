@@ -12,6 +12,8 @@ export const Participants = () => {
       title,
       localidad: info[0]?.localidad ?? "",
       web: info[0]?.web ?? "",
+      facebook: info[0]?.facebook ?? "",
+      instagram: info[0]?.instagram ?? "",
     }))
   );
 
@@ -62,9 +64,43 @@ export const Participants = () => {
                       <span className="truncate">Página web</span>
                     </a>
                   ) : (
+                    // <div className="flex items-center gap-2 text-sm text-slate-400">
+                    //   <Link2Off className="h-4 w-4 shrink-0" />
+                    //   <span>Web no disponible</span>
+                    // </div>
                     <div className="flex items-center gap-2 text-sm text-slate-400">
-                      <Link2Off className="h-4 w-4 shrink-0" />
-                      <span>Web no disponible</span>
+                      <></>
+                    </div>
+                    
+                  )}
+                  {participant.facebook ? (
+                    <a
+                      href={participant.facebook}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-sm font-medium text-[#123A63] transition-colors hover:text-blue-700 hover:underline"
+                    >
+                      <ExternalLink className="h-4 w-4 shrink-0" />
+                      <span className="truncate">Página de Facebook</span>
+                    </a>
+                  ) : (
+                    <div className="flex items-center gap-2 text-sm text-slate-400">
+                      <></>
+                    </div>
+                  )}
+                  {participant.instagram ? (
+                    <a
+                      href={participant.instagram}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-sm font-medium text-[#123A63] transition-colors hover:text-blue-700 hover:underline"
+                    >
+                      <ExternalLink className="h-4 w-4 shrink-0" />
+                      <span className="truncate">Página de Instagram</span>
+                    </a>
+                  ) : (
+                    <div className="flex items-center gap-2 text-sm text-slate-400">
+                      <></>
                     </div>
                   )}
                 </div>

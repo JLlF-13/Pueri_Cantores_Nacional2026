@@ -4,7 +4,7 @@
       "Puntos de Interes del Congreso": [
         {
           "nom": "Catedral de Menorca",
-          "link": "https://www.openstreetmap.org/search?query=Catedral%20de%20Menorca%20Ciutadella",
+          "link": "https://maps.app.goo.gl/VwaXTDt43eg1n2WL9",
           "latitud": 40.00153,
           "longitud": 3.83742
         },
@@ -16,7 +16,7 @@
         },
         {
           "nom": "Sala Multifuncional de Ciutadella",
-          "link": "https://www.openstreetmap.org/search?query=Sala%20Multifuncional%20Ciutadella%20de%20Menorca#map=19/40.000377/3.845676",
+          "link": "https://maps.app.goo.gl/fTvHAsDin1dezAfY8",
           "latitud": 40.000635,
           "longitud": 3.846053
         },
@@ -58,13 +58,13 @@
         },
         {
           "nom": "Estación de Autobuses de Ciutadella - Via Perimetral (Parada de los Coros)",
-          "link": "https://www.openstreetmap.org/node/2988407094#map=19/40.001589/3.846014",
+          "link": "https://maps.app.goo.gl/ppWDDyqWhTYYvDBz8",
           "latitud": 40.001589,
           "longitud": 3.846014
         },
         {
           "nom": "Hotel Binimar",
-          "link": "https://www.google.com/maps/place/Globales+Binimar/@40.0057397,3.7999706,17z/data=!4m9!3m8!1s0x12be06cbf84ceb77:0x9a80682b394740a0!5m2!4m1!1i2!8m2!3d40.0057397!4d3.7999706!16s%2Fg%2F12jlxxs5n?entry=ttu&g_ep=EgoyMDI2MDkxNC4wIKXMDSoASAFQAw%3D%3D",
+          "link": "https://maps.app.goo.gl/KDkXBBGbe2TYyoY76",
           "latitud": 40.0057397,
           "longitud": 3.7999706
         }
@@ -86,13 +86,13 @@
         },
         {
           "nom": "Estación de Autobuses de Ciutadella - Plaça de sa Pau",
-          "link": "https://www.openstreetmap.org/search?query=Estacion%20de%20Autobuses%20Ciutadella%20Menorca",
+          "link": "https://maps.app.goo.gl/DmfmPEunVoz9QZSc6",
           "latitud": 39.998187,
           "longitud": 3.839131
         },
         {
           "nom": "Centro de Salud Canal Salat",
-          "link": "https://www.openstreetmap.org/search?query=Canal+Salat&zoom=19&minlon=3.842529952526093&minlat=39.998433115854525&maxlon=3.846741020679474&maxlat=40.000307011617345#map=19/39.999371/3.844636",
+          "link": "https://maps.app.goo.gl/8VqscMy9mPW558tp7",
           "latitud": 39.999371,
           "longitud": 3.844636
         }
@@ -102,49 +102,37 @@
       "Turismo": [
         {
           "nom": "Palacio Can Salort",
-          "link": "https://www.openstreetmap.org/search?query=Can%20Salort%20Ciutadella",
+          "link": "https://maps.app.goo.gl/SnDCQRzFXV8cDbQs6",
           "latitud": 40.00100,
           "longitud": 3.83700
         },
         {
           "nom": "Palacio Torre-Saura",
-          "link": "https://www.openstreetmap.org/search?query=Palacio%20Torre-Saura%20Ciutadella",
+          "link": "https://maps.app.goo.gl/gYPXDd4vkYVQz5ad8",
           "latitud": 40.00080,
           "longitud": 3.83730
         },
         {
           "nom": "Palacio Can Olivar",
-          "link": "https://www.openstreetmap.org/search?query=Can%20Olivar%20Ciutadella",
+          "link": "https://maps.app.goo.gl/ESEuXrnFsPzfQ9Lx9",
           "latitud": 40.00150,
           "longitud": 3.83750
         },
         {
           "nom": "Museo de Ciutadella - Can Saura",
-          "link": "https://www.openstreetmap.org/search?query=Museu%20Can%20Saura%20Ciutadella",
+          "link": "https://maps.app.goo.gl/g3sHH4e9K6QSRpYCA",
           "latitud": 40.00120,
           "longitud": 3.83870
         },
         {
-          "nom": "Museo Diocesano - El Socors",
-          "link": "https://www.openstreetmap.org/search?query=Museu%20Diocesa%20El%20Socors%20Ciutadella",
-          "latitud": 40.00154,
-          "longitud": 3.83901
-        },
-        {
-          "nom": "Museo Municipal - Bastió de sa Font",
-          "link": "https://www.openstreetmap.org/search?query=Bastio%20de%20sa%20Font%20Ciutadella",
-          "latitud": 40.00030,
-          "longitud": 3.83950
-        },
-        {
           "nom": "Puerto de Ciutadella",
-          "link": "https://www.openstreetmap.org/search?query=Port%20de%20Ciutadella",
-          "latitud": 40.00000,
-          "longitud": 3.82700
+          "link": "https://maps.app.goo.gl/nnA45jryTBwFVpY37",
+          "latitud": 40.001741,
+          "longitud": 3.835489
         },
         {
           "nom": "Castillo de Sant Nicolau",
-          "link": "https://www.openstreetmap.org/search?query=Castell%20de%20Sant%20Nicolau%20Ciutadella",
+          "link": "https://maps.app.goo.gl/axMuGi27MbQ91qfJ8",
           "latitud": 39.995647,
           "longitud": 3.825773
         }
