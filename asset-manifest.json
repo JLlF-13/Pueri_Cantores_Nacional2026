@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pueri_Cantores_Nacional2026/static/css/main.0b3c70b1.css",
-    "main.js": "/Pueri_Cantores_Nacional2026/static/js/main.956f94d5.js",
+    "main.js": "/Pueri_Cantores_Nacional2026/static/js/main.d8472690.js",
     "static/js/453.5df645b5.chunk.js": "/Pueri_Cantores_Nacional2026/static/js/453.5df645b5.chunk.js",
     "static/media/Himno TUTTI.wav?url": "/Pueri_Cantores_Nacional2026/static/media/Himno TUTTI.fa7b4b4853534cf97251.wav",
     "static/media/Veritatem facientes in caritatem ALTO + Piano.mp3?url": "/Pueri_Cantores_Nacional2026/static/media/Veritatem facientes in caritatem ALTO + Piano.f1b10a5116957d1736c7.mp3",
@@ -75,18 +75,38 @@
     "static/media/2-soprano2-blancas.mp3?url": "/Pueri_Cantores_Nacional2026/static/media/2-soprano2-blancas.c1ca06a1640a63eacd35.mp3",
     "static/media/1-soprano-blancas.mp3?url": "/Pueri_Cantores_Nacional2026/static/media/1-soprano-blancas.266fb0a3b2cd3d3cd136.mp3",
     "static/media/3-alto-blancas.mp3?url": "/Pueri_Cantores_Nacional2026/static/media/3-alto-blancas.fa4d88d80672a8667f32.mp3",
+    "static/media/tastdenasilvia.jpg?url": "/Pueri_Cantores_Nacional2026/static/media/tastdenasilvia.44573083e9adfc8bec0a.jpg",
     "static/media/Coros_09.png?url": "/Pueri_Cantores_Nacional2026/static/media/Coros_09.2cc9c9199cc4ccf97820.png",
     "static/media/Pegatinas_09.png?url": "/Pueri_Cantores_Nacional2026/static/media/Pegatinas_09.2cc9c9199cc4ccf97820.png",
+    "static/media/organista.jpg?url": "/Pueri_Cantores_Nacional2026/static/media/organista.60d5391f2f036fbcc5ed.jpg",
+    "static/media/Inpan.JPG?url": "/Pueri_Cantores_Nacional2026/static/media/Inpan.b9f74c5170c966202fdd.JPG",
+    "static/media/Xoko.png?url": "/Pueri_Cantores_Nacional2026/static/media/Xoko.94db76dc864f56b3f76b.png",
+    "static/media/Ajuntament.JPG?url": "/Pueri_Cantores_Nacional2026/static/media/Ajuntament.c75562534941cde3f073.JPG",
+    "static/media/Intec.JPG?url": "/Pueri_Cantores_Nacional2026/static/media/Intec.0d8efb466e3803e97212.JPG",
+    "static/media/MareeTerra.JPG?url": "/Pueri_Cantores_Nacional2026/static/media/MareeTerra.e45a93e6e975664c479b.JPG",
+    "static/media/GrupoTorres.JPG?url": "/Pueri_Cantores_Nacional2026/static/media/GrupoTorres.abbb53d783a5f339a3c2.JPG",
+    "static/media/Ria.JPG?url": "/Pueri_Cantores_Nacional2026/static/media/Ria.4c2bd3810f33d6e8162a.JPG",
+    "static/media/pueris_es.png?url": "/Pueri_Cantores_Nacional2026/static/media/pueris_es.ffdb1365a5fa60132410.png",
+    "static/media/VidalMobles.JPG?url": "/Pueri_Cantores_Nacional2026/static/media/VidalMobles.58d9fe5e9390a8545cc0.JPG",
+    "static/media/VicentRotger.JPG?url": "/Pueri_Cantores_Nacional2026/static/media/VicentRotger.cd52df006d6524d4d8cd.JPG",
+    "static/media/JMCiuta.JPG?url": "/Pueri_Cantores_Nacional2026/static/media/JMCiuta.e2c1c81607eecaa86e58.JPG",
+    "static/media/BisbatMenorca.JPG?url": "/Pueri_Cantores_Nacional2026/static/media/BisbatMenorca.e66d74f51b0a7116010f.JPG",
+    "static/media/Consell.JPG?url": "/Pueri_Cantores_Nacional2026/static/media/Consell.bfcef610836002e16341.JPG",
     "static/media/LogoMenorca.jpg?url": "/Pueri_Cantores_Nacional2026/static/media/LogoMenorca.2f63295ef6358043099d.jpg",
+    "static/media/Lama.JPG?url": "/Pueri_Cantores_Nacional2026/static/media/Lama.b5a5b8d1d30f0c43412f.JPG",
     "static/media/LogoCongreso.jpg?url": "/Pueri_Cantores_Nacional2026/static/media/LogoCongreso.3d786231290765762fda.jpg",
+    "static/media/Govern.JPG?url": "/Pueri_Cantores_Nacional2026/static/media/Govern.6943d74469e93a098b32.JPG",
+    "static/media/Cototo.JPG?url": "/Pueri_Cantores_Nacional2026/static/media/Cototo.effd50c8d876123c7cd3.JPG",
+    "static/media/Blau.JPG?url": "/Pueri_Cantores_Nacional2026/static/media/Blau.2ff0d6739f676a600d87.JPG",
+    "static/media/logo_moli.svg?url": "/Pueri_Cantores_Nacional2026/static/media/logo_moli.0cf116ff77ce065699e6.svg",
     "static/media/logo.svg": "/Pueri_Cantores_Nacional2026/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Pueri_Cantores_Nacional2026/index.html",
     "main.0b3c70b1.css.map": "/Pueri_Cantores_Nacional2026/static/css/main.0b3c70b1.css.map",
-    "main.956f94d5.js.map": "/Pueri_Cantores_Nacional2026/static/js/main.956f94d5.js.map",
+    "main.d8472690.js.map": "/Pueri_Cantores_Nacional2026/static/js/main.d8472690.js.map",
     "453.5df645b5.chunk.js.map": "/Pueri_Cantores_Nacional2026/static/js/453.5df645b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b3c70b1.css",
-    "static/js/main.956f94d5.js"
+    "static/js/main.d8472690.js"
   ]
 }
