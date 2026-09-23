@@ -17,8 +17,8 @@ export const Header = () => {
           />
 
           <div className="hidden sm:block">
-            <h1 className="text-lg font-bold tracking-wide">
-              Pueri Cantores - Veritatem
+            <h1 className="text-sm font-bold tracking-wide">
+              Pueri Cantores - Veritatem Facientes In Caritate
             </h1>
             <p className="text-sm text-[#D8B46A]">
               Congreso Nacional 2026 
@@ -27,7 +27,7 @@ export const Header = () => {
         </a>
 
         {/* Menú escritorio */}
-        <nav className="hidden md:flex items-center gap-8 text-lg">
+        <nav className="hidden md:flex items-center gap-8 text-base">
           <Link
             to="/Pueri_Cantores_Nacional2026/"
             className="transition duration-300 hover:text-[#D8B46A]"
@@ -47,6 +47,13 @@ export const Header = () => {
             className="transition duration-300 hover:text-[#D8B46A]"
           >
             Participantes
+          </Link>
+
+          <Link
+            to="/Pueri_Cantores_Nacional2026/musicos/"
+            className="transition duration-300 hover:text-[#D8B46A]"
+          >
+            Quines Somos
           </Link>
 
           <Link
@@ -70,9 +77,26 @@ export const Header = () => {
             Galeria
           </Link>
 
+          {/* <Link
+            to="/Pueri_Cantores_Nacional2026/organitzaciocongres/"
+            className="transition duration-300 hover:text-[#D8B46A]"
+          >
+            Organizacion
+          </Link> */}
+
+          <Link
+            to="/Pueri_Cantores_Nacional2026/patrocinadores/"
+            className="transition duration-300 hover:text-[#D8B46A]"
+          >
+            Patrocinadores
+          </Link>
+
         </nav>
 
         {/* Botón móvil */}
+        <span className="text-sm font-semibold tracking-wide text-white md:hidden">
+          Veritatem Facientes In Caritate
+        </span>
         <button
           onClick={() => setOpen(!open)}
           className="rounded-md p-2 transition hover:bg-[#1B4E7A] md:hidden"
@@ -80,6 +104,7 @@ export const Header = () => {
         >
           {open ? <X size={28} /> : <Menu size={28} />}
         </button>
+        
       </div>
 
       {/* Menú móvil */}
@@ -110,6 +135,14 @@ export const Header = () => {
           </Link>
 
           <Link
+            to="/Pueri_Cantores_Nacional2026/musicos/"
+            className="block px-6 py-4 transition hover:bg-[#1B4E7A] hover:text-[#D8B46A]"
+            onClick={() => setOpen(false)}
+          >
+            Musicos
+          </Link>
+
+          <Link
             to="/Pueri_Cantores_Nacional2026/telefonos/"
             className="block px-6 py-4 transition hover:bg-[#1B4E7A] hover:text-[#D8B46A]"
             onClick={() => setOpen(false)}
@@ -131,6 +164,22 @@ export const Header = () => {
             onClick={() => setOpen(false)}
           >
             Galeria
+          </Link>
+
+          {/* <Link
+            to="/Pueri_Cantores_Nacional2026/organitzaciocongres/"
+            className="block px-6 py-4 transition hover:bg-[#1B4E7A] hover:text-[#D8B46A]"
+            onClick={() => setOpen(false)}
+          >
+            Organizacion
+          </Link> */}
+
+          <Link
+            to="/Pueri_Cantores_Nacional2026/patrocinadores/"
+            className="block px-6 py-4 transition hover:bg-[#1B4E7A] hover:text-[#D8B46A]"
+            onClick={() => setOpen(false)}
+          >
+            Patrocinadores
           </Link>
         </nav>
       )}

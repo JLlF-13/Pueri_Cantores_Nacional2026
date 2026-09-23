@@ -52,7 +52,8 @@
                     "horaFin": "19:00"
                 },
                 {
-                    "actividadTitulo": "Concierto de Gala en la Iglesia del 'Socors'\nUniforme propio de cara Coro",
+                    "actividadTitulo": "Concierto de Gala en la Iglesia del 'Socors'",
+                    "informacionAdicional":"Dress Code: Uniforme propio de cara Coro",
                     "horaInicio": "20:00"
                 },
                 {

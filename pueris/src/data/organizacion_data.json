@@ -1,0 +1,283 @@
+{
+    "organicacion": [
+        {
+            "Recepción de los coros": [
+                {
+                    "name": "Samantha",
+                    "jefe": true
+                },
+                {
+                    "name": "Oriol",
+                    "jefe": true
+                },
+                {
+                    "name": "Carla",
+                    "jefe": true
+                },
+                {
+                    "name": "Rosa Melis Femenias"
+                },
+                {
+                    "name": "Sebastia Bagur massanet"
+                },
+                {
+                    "name": "Toni Anglada Vidal"
+                },
+                {
+                    "name": "Carol M"
+                },
+                {
+                    "name": "Silvia Garcia"
+                },
+                {
+                    "name": "Catín Arguimbau"
+                }
+            ]
+        },
+        {
+            "Acompanyants processó": [
+                {
+                    "name": "Maia",
+                    "jefe": true
+                },
+                {
+                    "name": "Joan Lluch",
+                    "jefe": true
+                },
+                {
+                    "name": "Núria Fonoll",
+                    "jefe": true
+                },
+                {
+                    "name": "Alba de Oña Roig"
+                },
+                {
+                    "name": "Rita Lorente Taltavull"
+                },
+                {
+                    "name": "Gemma Cortes Mascaro"
+                },
+                {
+                    "name": "Minerva Talavera Martin"
+                },
+                {
+                    "name": "Esther"
+                },
+                {
+                    "name": "Marian Ferrer Borrás"
+                }
+            ]
+        },
+        {
+            "Born": [
+                {
+                    "name": "Sili",
+                    "jefe": true
+                },
+                {
+                    "name": "Vicky Mesquida"
+                },
+                {
+                    "name": "Reyes Taltavull"
+                },
+                {
+                    "name": "Miguel Pons"
+                },
+                {
+                    "name": "Rafa Álvarez"
+                },
+                {
+                    "name": "Tolo Lliteras"
+                },
+                {
+                    "name": "Alex Lliteras"
+                },
+                {
+                    "name": "Otelo"
+                },
+                {
+                    "name": "José Luis Ferrer"
+                }
+            ]
+        },
+        {
+            "Animació": [
+                {
+                    "name": "Maria del Mar",
+                    "jefe": true
+                },
+                {
+                    "name": "Marina Gener"
+                },
+                {
+                    "name": "Noemi Genestra"
+                },
+                {
+                    "name": "Matilde"
+                }
+            ]
+        },
+        {
+            "Multifuncional": [
+                {
+                    "name": "Joana Luna",
+                    "jefe": true
+                },
+                {
+                    "name": "Alba Pons",
+                    "jefe": true
+                },
+                {
+                    "name": "Rafa Álvarez"
+                },
+                {
+                    "name": "Eugenia Barea"
+                },
+                {
+                    "name": "Toni Pons"
+                },
+                {
+                    "name": "Veronica Fuentes"
+                },
+                {
+                    "name": "Tolo Lliteras"
+                },
+                {
+                    "name": "Alex Lliteras"
+                },
+                {
+                    "name": "Mari Muñoz"
+                },
+                {
+                    "name": "Carla Álvarez"
+                },
+                {
+                    "name": "Fel Rotger"
+                }
+            ]
+        },
+        {
+            "Socors": [
+                {
+                    "name": "Héctor",
+                    "jefe": true
+                },
+                {
+                    "name": "Joan Lluch",
+                    "jefe": true
+                },
+                {
+                    "name": "Núria Fonoll",
+                    "jefe": true
+                },
+                {
+                    "name": "Ester Secilla",
+                    "jefe": true
+                },
+                {
+                    "name": "Lluís Alles",
+                    "jefe": true
+                },
+                {
+                    "name": "Vicky Mesquida"
+                },
+                {
+                    "name": "Tolo Lliteras"
+                },
+                {
+                    "name": "Alex Lliteras"
+                },
+                {
+                    "name": "Otelo"
+                },
+                {
+                    "name": "Ita  Pico / Pere"
+                }
+            ]
+        },
+        {
+            "Soporte cors": [
+                {
+                    "name": "Inés",
+                    "jefe": true
+                },
+                {
+                    "name": "Rosa Melis Femenias"
+                },
+                {
+                    "name": "Toni Anglada Vidal"
+                },
+                {
+                    "name": "Carol M"
+                },
+                {
+                    "name": "Minerva Talavera Martín"
+                },
+                {
+                    "name": "Marian Ferrer Borrás"
+                }
+            ]
+        },
+        {
+            "Punt d'informació i repartiment d'aigua": [
+                {
+                    "name": "Cris",
+                    "jefe": true
+                },
+                {
+                    "name": "Alba de Oña Roig"
+                },
+                {
+                    "name": "Gemma Cortes Mascaro"
+                }
+            ]
+        },
+        {
+            "Visita turística": [
+                {
+                    "name": "Carla",
+                    "jefe": true
+                },
+                {
+                    "name": "Inés Potau"
+                },
+                {
+                    "name": "Silvia García"
+                },
+                {
+                    "name": "Catín Arguimbau"
+                }
+            ]
+        },
+        {
+            "Soporte Catedral": [
+                {
+                    "name": "Claudia",
+                    "jefe": true
+                },
+                {
+                    "name": "Rita Lorente Taltavull",
+                    "jefe": true
+                },
+                {
+                    "name": "Matilde"
+                },
+                {
+                    "name": "Tolo lliteras"
+                },
+                {
+                    "name": "Alex lliteras"
+                },
+                {
+                    "name": "Sara Morlà"
+                },
+                {
+                    "name": "Minerva Talavera Martín"
+                },
+                {
+                    "name": "Marian Ferrer Borrás"
+                }
+            ]
+        }
+    ]
+}

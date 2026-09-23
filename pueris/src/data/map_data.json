@@ -95,6 +95,30 @@
           "link": "https://maps.app.goo.gl/8VqscMy9mPW558tp7",
           "latitud": 39.999371,
           "longitud": 3.844636
+        },
+        {
+          "nom": "Farmàcia Díez De Juan Sánchez",
+          "link": "https://maps.app.goo.gl/Szjb8p2gqqpB4DZr5",
+          "latitud": 40.006570,
+          "longitud": 3.806548
+        },
+        {
+          "nom": "Farmacia Guardia (Dia 10)",
+          "link": "https://maps.app.goo.gl/8VqscMy9mPW558tp7",
+          "latitud": 39.999371,
+          "longitud": 3.844636
+        },
+        {
+          "nom": "Farmacia Guardia (Dia 11)",
+          "link": "https://maps.app.goo.gl/8VqscMy9mPW558tp7",
+          "latitud": 39.999371,
+          "longitud": 3.844636
+        },
+        {
+          "nom": "Farmacia Guardia (Dia 12)",
+          "link": "https://maps.app.goo.gl/8VqscMy9mPW558tp7",
+          "latitud": 39.999371,
+          "longitud": 3.844636
         }
       ]
     },
@@ -135,6 +159,12 @@
           "link": "https://maps.app.goo.gl/axMuGi27MbQ91qfJ8",
           "latitud": 39.995647,
           "longitud": 3.825773
+        },
+        {
+          "nom": "Farmàcia Llabrés (Museo)",
+          "link": "https://maps.app.goo.gl/axMuGi27MbQ91qfJ8",
+          "latitud": 40.00212,
+          "longitud": 3.83881
         }
       ]
     }

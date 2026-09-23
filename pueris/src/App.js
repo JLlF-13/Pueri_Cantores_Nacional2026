@@ -9,6 +9,9 @@ import { NotFound } from './pages/notfound';
 import { Telefonos } from './pages/telefonos';
 import { Partituras } from './pages/partituras';
 import { Galeria } from './pages/galeria';
+import { Patrocinadores } from './pages/Patrocinadores';
+import { OrganitzacioCongres } from './pages/Organizacion';
+import { OrganistaOficial } from './pages/OrganistaOficial';
 
 
 function App() {
@@ -23,7 +26,9 @@ function App() {
         <Route path="/Pueri_Cantores_Nacional2026/partituras/" element={<Partituras/>} />
         <Route path="/Pueri_Cantores_Nacional2026/galeria/" element={<Galeria/>} />
         <Route path="/Pueri_Cantores_Nacional2026/prensa/" element={<Galeria/>} /> 
-        /*dress codre*/
+        <Route path="/Pueri_Cantores_Nacional2026/musicos/" element={<OrganistaOficial/>} /> 
+        {/* <Route path="/Pueri_Cantores_Nacional2026/organitzaciocongres/" element={<OrganitzacioCongres/>} />  */}
+        <Route path="/Pueri_Cantores_Nacional2026/patrocinadores/" element={<Patrocinadores/>} /> 
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

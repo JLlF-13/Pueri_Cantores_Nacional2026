@@ -1,0 +1,106 @@
+{
+  "Patrocinadors": [
+    {
+      "nom": "Cototo",
+      "src": "Sponsors/Cototo.JPG",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Xoko",
+      "src": "Sponsors/Xoko.png",
+      "width": 800,
+      "height": 400
+    },
+    {
+      "nom": "Ria",
+      "src": "Sponsors/Ria.JPG",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Ajuntament de Ciutadella",
+      "src": "Sponsors/Ajuntament.JPG",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Govern de les Illes Balears",
+      "src": "Sponsors/Govern.JPG",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Mare e Terra",
+      "src": "Sponsors/MareeTerra.JPG",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Consell",
+      "src": "Sponsors/Consell.JPG",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Blau",
+      "src": "Sponsors/Blau.JPG",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Vicent Roger",
+      "src": "Sponsors/VicentRotger.JPG",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "JM Ciuta",
+      "src": "Sponsors/JMCiuta.JPG",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Bisbat Menorca",
+      "src": "Sponsors/BisbatMenorca.JPG",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Vidal Mobles",
+      "src": "Sponsors/VidalMobles.JPG",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Intec",
+      "src": "Sponsors/Intec.JPG",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Grupo Torres",
+      "src": "Sponsors/GrupoTorres.JPG",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Lama",
+      "src": "Sponsors/Lama.JPG",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Inpan",
+      "src": "Sponsors/Inpan.JPG",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Tast de na Silvia",
+      "src": "Sponsors/tastdenasilvia.jpg",
+      "width": 400,
+      "height": 200
+    }
+  ]
+}
