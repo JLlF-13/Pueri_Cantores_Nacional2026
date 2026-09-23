@@ -101,6 +101,30 @@
       "src": "Sponsors/tastdenasilvia.jpg",
       "width": 400,
       "height": 200
+    },
+    {
+      "nom": "Moli des Compte",
+      "src": "Sponsors/logo_moli.svg",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Pueris Menorca",
+      "src": "Sponsors/LogoMenorca.jpg",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Pueris España",
+      "src": "Sponsors/pueris_es.png",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Pueris Internacional",
+      "src": "Sponsors/pueris_int.png",
+      "width": 400,
+      "height": 200
     }
   ]
 }

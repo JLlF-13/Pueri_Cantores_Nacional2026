@@ -1,7 +1,7 @@
 import patrocinadoresData from "../data/data_sponsors.json";
 
 const imagenesImportadas = import.meta.glob(
-  "../data/img/**/*.{jpg,jpeg,png,webp,JPG}",
+  "../data/img/**/*.{jpg,jpeg,png,webp,JPG,svg}",
   {
     eager: true,
     query: "?url",

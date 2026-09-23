@@ -18,7 +18,7 @@ export const Header = () => {
 
           <div className="hidden sm:block">
             <h1 className="text-sm font-bold tracking-wide">
-              Pueri Cantores - Veritatem Facientes In Caritate
+              Pueri Cantores <br/> Veritatem Facientes In Caritate
             </h1>
             <p className="text-sm text-[#D8B46A]">
               Congreso Nacional 2026 
@@ -75,6 +75,13 @@ export const Header = () => {
             className="transition duration-300 hover:text-[#D8B46A]"
           >
             Galeria
+          </Link>
+
+          <Link
+            to="/Pueri_Cantores_Nacional2026/premsa/"
+            className="transition duration-300 hover:text-[#D8B46A]"
+          >
+            Premsa
           </Link>
 
           {/* <Link
@@ -164,6 +171,14 @@ export const Header = () => {
             onClick={() => setOpen(false)}
           >
             Galeria
+          </Link>
+
+          <Link
+            to="/Pueri_Cantores_Nacional2026/premsa/"
+            className="block px-6 py-4 transition hover:bg-[#1B4E7A] hover:text-[#D8B46A]"
+            onClick={() => setOpen(false)}
+          >
+            Premsa
           </Link>
 
           {/* <Link

@@ -12,6 +12,7 @@ import { Galeria } from './pages/galeria';
 import { Patrocinadores } from './pages/Patrocinadores';
 import { OrganitzacioCongres } from './pages/Organizacion';
 import { OrganistaOficial } from './pages/OrganistaOficial';
+import { Premsa } from './pages/Premsa';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/Pueri_Cantores_Nacional2026/partituras/" element={<Partituras/>} />
         <Route path="/Pueri_Cantores_Nacional2026/galeria/" element={<Galeria/>} />
         <Route path="/Pueri_Cantores_Nacional2026/prensa/" element={<Galeria/>} /> 
+        <Route path="/Pueri_Cantores_Nacional2026/premsa/" element={<Premsa/>} />
         <Route path="/Pueri_Cantores_Nacional2026/musicos/" element={<OrganistaOficial/>} /> 
         {/* <Route path="/Pueri_Cantores_Nacional2026/organitzaciocongres/" element={<OrganitzacioCongres/>} />  */}
         <Route path="/Pueri_Cantores_Nacional2026/patrocinadores/" element={<Patrocinadores/>} /> 
