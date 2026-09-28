@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Clock3, ChevronLeft, ChevronRight } from "lucide-react";
+import { Clock3 } from "lucide-react";
 import data from "../data/data.json";
 
 export const Home = () => {
@@ -28,28 +28,6 @@ export const Home = () => {
   );
 
   const actividades = diaData?.[diaSeleccionado] || [];
-
-  // Índex del dia actual
-  const indiceDia = dias.findIndex(
-    (dia) => Object.keys(dia)[0] === diaSeleccionado
-  );
-
-  // Canviar de dia
-  const cambiarDia = (direccion) => {
-    let nuevoIndice = indiceDia + direccion;
-
-    if (nuevoIndice < 0) {
-      nuevoIndice = dias.length - 1;
-    }
-
-    if (nuevoIndice >= dias.length) {
-      nuevoIndice = 0;
-    }
-
-    const nuevoDia = Object.keys(dias[nuevoIndice])[0];
-
-    setDiaSeleccionado(nuevoDia);
-  };
 
   return (
     <main className="min-h-screen bg-slate-50">
@@ -82,15 +60,6 @@ export const Home = () => {
 
             <div className="flex items-center gap-1.5 sm:gap-4">
 
-              {/* ANTERIOR */}
-              <button
-                onClick={() => cambiarDia(-1)}
-                className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#123A63] text-white transition hover:bg-[#1B4E7A] active:scale-95 sm:h-12 sm:w-12"
-                aria-label="Día anterior"
-              >
-                <ChevronLeft size={22} />
-              </button>
-
               {/* DÍAS */}
               <div className="grid min-w-0 flex-1 grid-cols-3 gap-1.5 sm:gap-3">
 
@@ -114,15 +83,6 @@ export const Home = () => {
                 })}
 
               </div>
-
-              {/* SIGUIENTE */}
-              <button
-                onClick={() => cambiarDia(1)}
-                className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#123A63] text-white transition hover:bg-[#1B4E7A] active:scale-95 sm:h-12 sm:w-12"
-                aria-label="Día siguiente"
-              >
-                <ChevronRight size={22} />
-              </button>
 
             </div>
 
@@ -197,6 +157,12 @@ export const Home = () => {
                       {actividad.informacionAdicional && (
                         <p style={{ whiteSpace: "pre-line" }}>
                             {actividad.informacionAdicional}
+                        </p>
+                      )}
+
+                      {actividad.link && (
+                        <p style={{ whiteSpace: "pre-line" }} className="text-red-400">
+                            <a href={actividad.link} target="_blank">Ver evento en directo</a>
                         </p>
                       )}
 

@@ -50,10 +50,10 @@ export const Header = () => {
           </Link>
 
           <Link
-            to="/Pueri_Cantores_Nacional2026/musicos/"
+            to="/Pueri_Cantores_Nacional2026/quienes_somos/"
             className="transition duration-300 hover:text-[#D8B46A]"
           >
-            Quines Somos
+            Quienes somos
           </Link>
 
           <Link
@@ -142,11 +142,11 @@ export const Header = () => {
           </Link>
 
           <Link
-            to="/Pueri_Cantores_Nacional2026/musicos/"
+            to="/Pueri_Cantores_Nacional2026/quienes_somos/"
             className="block px-6 py-4 transition hover:bg-[#1B4E7A] hover:text-[#D8B46A]"
             onClick={() => setOpen(false)}
           >
-            Musicos
+            Quienes somos
           </Link>
 
           <Link

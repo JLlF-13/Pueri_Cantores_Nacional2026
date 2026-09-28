@@ -41,7 +41,7 @@ export const Premsa = () => {
                   {participant.link && (
                     <div className="flex items-center gap-2 text-sm text-slate-500">
                       <Link2 className="h-4 w-4 shrink-0 text-[#123A63]" />
-                      <span><a href={participant.link}>Leer articulo...</a></span>
+                      <span><a href={participant.link} target="_blank">Leer articulo...</a></span>
                     </div>
                   )}
                 </div>

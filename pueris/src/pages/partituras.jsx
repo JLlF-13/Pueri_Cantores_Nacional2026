@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Music, Download, ChevronLeft, ChevronRight } from "lucide-react";
+import { Music, Download } from "lucide-react";
 import data from "../data/partituras_data.json";
 
 // Carregar tots els àudios de la carpeta pueris_audios
@@ -82,15 +82,6 @@ export const Partituras = () => {
 
             <div className="flex items-center gap-1.5 sm:gap-4">
 
-              {/* ANTERIOR */}
-              <button
-                onClick={() => cambiarObra(-1)}
-                className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#123A63] text-white transition hover:bg-[#1B4E7A] active:scale-95 sm:h-12 sm:w-12"
-                aria-label="Obra anterior"
-              >
-                <ChevronLeft size={22} />
-              </button>
-
               {/* OBRAS */}
               <div className="grid min-w-0 flex-1 grid-cols-2 gap-1.5 sm:grid-cols-5 sm:gap-3">
 
@@ -114,15 +105,6 @@ export const Partituras = () => {
                 })}
 
               </div>
-
-              {/* SIGUIENTE */}
-              <button
-                onClick={() => cambiarObra(1)}
-                className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#123A63] text-white transition hover:bg-[#1B4E7A] active:scale-95 sm:h-12 sm:w-12"
-                aria-label="Siguiente obra"
-              >
-                <ChevronRight size={22} />
-              </button>
 
             </div>
 
