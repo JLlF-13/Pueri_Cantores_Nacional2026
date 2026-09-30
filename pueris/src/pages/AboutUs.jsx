@@ -4,6 +4,7 @@ import FEPC from "../data/img/AboutUs/FEPC.jpg";
 import Cris from "../data/img/AboutUs/Cris.jpg";
 import Bisbe from "../data/img/AboutUs/Bisbe.jpg";
 import Quinteto from "../data/img/AboutUs/Quintet.jpg";
+import Jose from "../data/img/AboutUs/Jose.jpg";
 
 export const AboutUS = () => {
 
@@ -50,13 +51,13 @@ export const AboutUS = () => {
             <div className="h-10 w-1 shrink-0 rounded-full bg-[#D8B46A] sm:h-12" />
 
             <h2 className="text-2xl font-bold text-[#123A63] sm:text-3xl">
-              Creador del Himno
+              Creador del Himno: Jose Antonio Pérez
             </h2>
           </div>
 
           <div className="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-slate-200 sm:p-8">
             <img
-              src={FEPC}
+              src={Jose}
               alt="Creador Himne"
               className="h-auto max-h-[500px] w-full rounded-xl object-contain"
             />
@@ -142,7 +143,7 @@ export const AboutUS = () => {
             <article className="overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-slate-200">
               <div className="flex aspect-square items-center justify-center bg-slate-100 p-3">
                 <img
-                  src={Cris}
+                  src={Jose}
                   alt="Músico 3"
                   className="h-full w-full object-contain"
                 />
@@ -150,10 +151,10 @@ export const AboutUS = () => {
 
               <div className="px-4 py-3 text-center">
                 <p className="text-sm font-bold text-[#123A63]">
-                  Director
+                  Jose Antonio Pérez
                 </p>
                 <p className="mt-1 text-xs text-slate-500">
-                  ?                
+                  Responsable Musical                
                 </p>
               </div>
             </article>

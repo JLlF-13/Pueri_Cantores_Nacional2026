@@ -1,6 +1,42 @@
 {
   "Patrocinadors": [
     {
+      "nom": "Consell",
+      "src": "Sponsors/Consell.JPG",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Govern de les Illes Balears",
+      "src": "Sponsors/Govern.JPG",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Ajuntament de Ciutadella",
+      "src": "Sponsors/Ajuntament.JPG",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Pueris Menorca",
+      "src": "Sponsors/LogoMenorca.jpg",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Pueris España",
+      "src": "Sponsors/pueris_es.png",
+      "width": 400,
+      "height": 200
+    },
+    {
+      "nom": "Pueris Internacional",
+      "src": "Sponsors/pueris_int.png",
+      "width": 400,
+      "height": 200
+    },
+    {
       "nom": "Cototo",
       "src": "Sponsors/Cototo.JPG",
       "width": 400,
@@ -19,26 +55,8 @@
       "height": 200
     },
     {
-      "nom": "Ajuntament de Ciutadella",
-      "src": "Sponsors/Ajuntament.JPG",
-      "width": 400,
-      "height": 200
-    },
-    {
-      "nom": "Govern de les Illes Balears",
-      "src": "Sponsors/Govern.JPG",
-      "width": 400,
-      "height": 200
-    },
-    {
       "nom": "Mare e Terra",
       "src": "Sponsors/MareeTerra.JPG",
-      "width": 400,
-      "height": 200
-    },
-    {
-      "nom": "Consell",
-      "src": "Sponsors/Consell.JPG",
       "width": 400,
       "height": 200
     },
@@ -105,24 +123,6 @@
     {
       "nom": "Moli des Compte",
       "src": "Sponsors/logo_moli.svg",
-      "width": 400,
-      "height": 200
-    },
-    {
-      "nom": "Pueris Menorca",
-      "src": "Sponsors/LogoMenorca.jpg",
-      "width": 400,
-      "height": 200
-    },
-    {
-      "nom": "Pueris España",
-      "src": "Sponsors/pueris_es.png",
-      "width": 400,
-      "height": 200
-    },
-    {
-      "nom": "Pueris Internacional",
-      "src": "Sponsors/pueris_int.png",
       "width": 400,
       "height": 200
     }

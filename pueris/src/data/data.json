@@ -15,6 +15,7 @@
                 },
                 {
                     "actividadTitulo": "Ceremonia de Apertura del Congreso y Oración por la Paz",
+                    "link":"https://www.youtube.com/@BisbatdeMenorca/videos",
                     "informacionAdicional":"Dress Code: Túnica y Cruz",
                     "horaInicio": "21:00"
                 },
@@ -76,6 +77,7 @@
                 {
                     "actividadTitulo": "Misa de Clausura del Congreso en la Catedral de Menorca",
                     "informacionAdicional":"Dress Code: Túnica y Cruz",
+                    "link":"https://www.youtube.com/@BisbatdeMenorca/videos",
                     "horaInicio": "10:00"
                 }
             ]

@@ -11,7 +11,7 @@ export const Header = () => {
         {/* Logo */}
 
         <img
-          src={`${process.env.PUBLIC_URL}/logo.png`}
+          src={`${process.env.PUBLIC_URL}/logo_w.png`}
           alt="Pueri Cantores"
           className="h-12 w-auto"
         />
