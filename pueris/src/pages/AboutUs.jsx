@@ -17,7 +17,7 @@ export const AboutUS = () => {
           </h1>
 
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-blue-100 sm:mt-4 sm:text-lg">
-            Conoce a los principales colaboradores del Congreso.
+            Conoce a los principales organizadores del Congreso.
           </p>
         </div>
       </section>
@@ -29,7 +29,7 @@ export const AboutUS = () => {
             <div className="h-10 w-1 shrink-0 rounded-full bg-[#D8B46A] sm:h-12" />
 
             <h2 className="text-2xl font-bold text-[#123A63] sm:text-3xl">
-              FEPC
+              Federación Española de Puericantores
             </h2>
           </div>
 
@@ -71,7 +71,7 @@ export const AboutUS = () => {
             <div className="h-10 w-1 shrink-0 rounded-full bg-[#D8B46A] sm:h-12" />
 
             <h2 className="text-2xl font-bold text-[#123A63] sm:text-3xl">
-              Obispo
+              Obispo de Menorca
             </h2>
           </div>
 

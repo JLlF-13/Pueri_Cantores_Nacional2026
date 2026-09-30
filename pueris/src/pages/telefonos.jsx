@@ -14,11 +14,11 @@ export const Telefonos = () => {
       <section className="bg-[#123A63] px-4 py-10 text-white sm:px-6 sm:py-14">
         <div className="mx-auto max-w-7xl text-center">
           <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-            Telefonos
+            Teléfonos
           </h1>
 
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-blue-100 sm:mt-4 sm:text-lg">
-            Telefonos de interes para el congreso
+            Teléfonos de interes para el congreso
           </p>
         </div>
       </section>

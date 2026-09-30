@@ -33,8 +33,7 @@ export const Patrocinadores = () => {
           </h1>
 
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-blue-100 sm:mt-4 sm:text-lg">
-            Consulta todos los patrocinadores que ayudan con el Congreso
-            Nacional
+            Consulta todos los patrocinadores que hacen posible el Congreso
           </p>
         </div>
       </section>
