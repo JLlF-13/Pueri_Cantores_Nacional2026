@@ -14,11 +14,11 @@ export const Premsa = () => {
       <section className="bg-[#123A63] px-4 py-10 text-white sm:px-6 sm:py-14">
         <div className="mx-auto max-w-7xl text-center">
           <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-            Premsa
+            Prensa
           </h1>
 
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-blue-100 sm:mt-4 sm:text-lg">
-            Consulta todos los articulos de premsa relacionados con el congreso
+            Consulta todos los artículos de premsa relacionados con el congreso
           </p>
         </div>
       </section>
@@ -41,7 +41,7 @@ export const Premsa = () => {
                   {participant.link && (
                     <div className="flex items-center gap-2 text-sm text-slate-500">
                       <Link2 className="h-4 w-4 shrink-0 text-[#123A63]" />
-                      <span><a href={participant.link} target="_blank">Leer articulo...</a></span>
+                      <span><a href={participant.link} target="_blank">Leer artículo...</a></span>
                     </div>
                   )}
                 </div>

@@ -12,79 +12,17 @@
 
   <title>Pueri Cantores</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <style>
-    /* Contenidor de l'idioma */
-    .gtranslate_wrapper {
-      position: fixed !important;
-      bottom: 20px !important;
-      right: 20px !important;
-      z-index: 9999 !important;
-      transform: scale(0.9);
-    transform-origin: bottom right;
-    }
 
-    /* Boleta */
-    .gtranslate_wrapper .gt_float_switcher {
-      border-radius: 50% !important;
-      width: 22px !important;
-      height: 22px !important;
-      overflow: hidden !important;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
-    }
-
-    /* Amagar el text inicial */
-    .gtranslate_wrapper .gt_float_switcher img {
-      width: 24px !important;
-      height: 24px !important;
-    }
-
-    /* Selector */
-    .gtranslate_wrapper .gt_options {
-      border-radius: 12px !important;
-      overflow: hidden !important;
-      margin-bottom: 8px !important;
-    }
-
-    /* Opcions amb bandera */
-    .gtranslate_wrapper .gt_options a {
-      display: flex !important;
-      align-items: center !important;
-      gap: 8px !important;
-      padding: 8px 12px !important;
-    }
-
-    /* Mòbil */
-    @media (max-width: 768px) {
-      .gtranslate_wrapper {
-        bottom: 15px !important;
-        right: 15px !important;
-      }
-
-      .gtranslate_wrapper .gt_float_switcher {
-        width: 48px !important;
-        height: 48px !important;
-      }
-    }
-  </style>
 </head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
 
+
   <div class="gtranslate_wrapper"></div>
-
-  <script>
-    window.gtranslateSettings = {
-      "default_language": "es",
-      "languages": ["ca", "es", "en", "pl"],
-      "wrapper_selector": ".gtranslate_wrapper",
-      "flag_style": "2"
-    };
-  </script>
-
-  <script src="https://cdn.gtranslate.net/widgets/latest/globe.js" defer> </script>
-  </script>
+  <script>window.gtranslateSettings = { "default_language": "es", "detect_browser_language": true, "languages": ["es", "ca", "en", "pl"], "globe_color": "#66aaff", "wrapper_selector": ".gtranslate_wrapper", "horizontal_position": "right", "vertical_position": "bottom" }</script>
+  <script src="https://cdn.gtranslate.net/widgets/latest/globe.js" defer></script>
 
 </body>
 

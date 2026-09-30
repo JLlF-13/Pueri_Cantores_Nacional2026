@@ -2,11 +2,11 @@ import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import data from "../data/galeria_data.json";
 
-// Carregar totes les imatges de data/img
+// Carregar les imatges només quan siguin necessàries
 const imagenesImportadas = import.meta.glob(
-  "../data/img/**/*.{jpg,jpeg,png,webp}",
+  "../data/img/**/*.{jpg,jpeg,png}",
   {
-    // eager: true,
+    eager: true,
     query: "?url",
     import: "default",
   }
@@ -107,6 +107,7 @@ export const Galeria = () => {
       {/* CARRUSEL */}
       <section className="px-3 pb-12 sm:px-6 sm:pb-16">
         <div className="mx-auto max-w-5xl">
+
           {/* TÍTULO */}
           <div className="mb-5 flex items-center gap-3 sm:mb-7 sm:gap-4">
             <div className="h-10 w-1 shrink-0 rounded-full bg-[#D8B46A] sm:h-12" />
@@ -122,16 +123,17 @@ export const Galeria = () => {
             </div>
           </div>
 
-          {/* CARRUSEL */}
           {nombresImagenes.length > 0 ? (
             <>
               <div className="relative overflow-hidden rounded-2xl bg-white shadow-lg ring-1 ring-slate-200">
+
                 {/* IMAGEN */}
                 <div className="relative flex aspect-video items-center justify-center bg-slate-200">
                   {imagenActual ? (
                     <img
                       src={imagenActual}
                       alt={`${tituloGaleria} - imagen ${imagenSeleccionada + 1}`}
+                      decoding="async"
                       className="h-full w-full object-contain"
                     />
                   ) : (
@@ -205,6 +207,8 @@ export const Galeria = () => {
                           <img
                             src={imagen}
                             alt={`${tituloGaleria} - miniatura ${index + 1}`}
+                            loading="lazy"
+                            decoding="async"
                             className="h-full w-full object-cover"
                           />
                         ) : (

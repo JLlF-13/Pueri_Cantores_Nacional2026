@@ -10,12 +10,12 @@
                 },
                 {
                     "actividadTitulo": "Procesión de la luz",
-                    "informacionAdicional": "Salida de los coros en procesión desde las distintas parroquias de Ciutadella hasta la Catdral de Menorca\nDress Code: Tunica y Cruz",
+                    "informacionAdicional": "Salida de los coros en procesión desde las distintas parroquias de Ciutadella hasta la Catedral de Menorca\nDress Code: Túnica y Cruz",
                     "horaInicio": "20:30"
                 },
                 {
                     "actividadTitulo": "Ceremonia de Apertura del Congreso y Oración por la Paz",
-                    "informacionAdicional":"Dress Code: Tunica y Cruz",
+                    "informacionAdicional":"Dress Code: Túnica y Cruz",
                     "horaInicio": "21:00"
                 },
                 {
@@ -37,8 +37,8 @@
                     "horaFin": "13:30"
                 },
                 {
-                    "actividadTitulo": "Actividades lúdicas",
-                    "informacionAdicional": "Deportivas para los niños (gincana por el centro histórico, juegos en el hostal, etc...)",
+                    "actividadTitulo": "Actividades deportivas y lúdicas",
+                    "informacionAdicional": "Para los niños (gincana por el centro histórico, juegos en el hostal, etc...)",
                     "horaInicio": "11:30",
                     "horaFin": "13:30"
                 },
@@ -75,7 +75,7 @@
                 },
                 {
                     "actividadTitulo": "Misa de Clausura del Congreso en la Catedral de Menorca",
-                    "informacionAdicional":"Dress Code: Tunica y Cruz",
+                    "informacionAdicional":"Dress Code: Túnica y Cruz",
                     "horaInicio": "10:00"
                 }
             ]

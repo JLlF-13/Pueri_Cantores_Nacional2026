@@ -9,22 +9,22 @@ export const Header = () => {
     <header className="sticky top-0 z-50 bg-[#123A63] text-white shadow-lg">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         {/* Logo */}
-        <a href="/" className="flex items-center gap-3">
-          <img
-            src={`${process.env.PUBLIC_URL}/logo.png`}
-            alt="Pueri Cantores"
-            className="h-12 w-auto"
-          />
 
-          <div className="hidden sm:block">
-            <h1 className="text-sm font-bold tracking-wide">
-              Pueri Cantores <br/> Veritatem Facientes In Caritate
-            </h1>
-            <p className="text-sm text-[#D8B46A]">
-              Congreso Nacional 2026 
-            </p>
-          </div>
-        </a>
+        <img
+          src={`${process.env.PUBLIC_URL}/logo.png`}
+          alt="Pueri Cantores"
+          className="h-12 w-auto"
+        />
+
+        <div className="hidden sm:block">
+          <h1 className="text-sm font-bold tracking-wide">
+            Pueri Cantores <br /> Veritatem Facientes In Caritate
+          </h1>
+          <p className="text-sm text-[#D8B46A]">
+            Congreso Nacional 2026
+          </p>
+        </div>
+
 
         {/* Menú escritorio */}
         <nav className="hidden md:flex items-center gap-8 text-base">
@@ -111,7 +111,7 @@ export const Header = () => {
         >
           {open ? <X size={28} /> : <Menu size={28} />}
         </button>
-        
+
       </div>
 
       {/* Menú móvil */}
