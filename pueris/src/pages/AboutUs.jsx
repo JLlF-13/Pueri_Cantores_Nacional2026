@@ -3,6 +3,7 @@ import organista from "../data/img/AboutUs/organista.jpg";
 import FEPC from "../data/img/AboutUs/FEPC.jpg";
 import Cris from "../data/img/AboutUs/Cris.jpg";
 import Bisbe from "../data/img/AboutUs/Bisbe.jpg";
+import Quinteto from "../data/img/AboutUs/Quintet.jpg";
 
 export const AboutUS = () => {
 
@@ -160,15 +161,15 @@ export const AboutUS = () => {
             <article className="overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-slate-200">
               <div className="flex aspect-square items-center justify-center bg-slate-100 p-3">
                 <img
-                  src={Cris}
-                  alt="Director"
+                  src={Quinteto}
+                  alt="Quineto"
                   className="h-full w-full object-contain"
                 />
               </div>
 
               <div className="px-4 py-3 text-center">
                 <p className="text-sm font-bold text-[#123A63]">
-                  Quintet
+                  Quinteto
                 </p>
               </div>
             </article>
