@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pueri_Cantores_Nacional2026/static/css/main.0b3c70b1.css",
-    "main.js": "/Pueri_Cantores_Nacional2026/static/js/main.6629103c.js",
+    "main.js": "/Pueri_Cantores_Nacional2026/static/js/main.c8c9930e.js",
     "static/js/453.5df645b5.chunk.js": "/Pueri_Cantores_Nacional2026/static/js/453.5df645b5.chunk.js",
     "static/media/Himno TUTTI.wav?url": "/Pueri_Cantores_Nacional2026/static/media/Himno TUTTI.fa7b4b4853534cf97251.wav",
     "static/media/Veritatem facientes in caritatem ALTO + Piano.mp3?url": "/Pueri_Cantores_Nacional2026/static/media/Veritatem facientes in caritatem ALTO + Piano.f1b10a5116957d1736c7.mp3",
@@ -99,16 +99,17 @@
     "static/media/LogoCongreso.jpg?url": "/Pueri_Cantores_Nacional2026/static/media/LogoCongreso.3d786231290765762fda.jpg",
     "static/media/Govern.JPG?url": "/Pueri_Cantores_Nacional2026/static/media/Govern.6943d74469e93a098b32.JPG",
     "static/media/Cototo.JPG?url": "/Pueri_Cantores_Nacional2026/static/media/Cototo.effd50c8d876123c7cd3.JPG",
+    "static/media/Bisbe.jpg?url": "/Pueri_Cantores_Nacional2026/static/media/Bisbe.6dc85af5179fca9f97cc.jpg",
     "static/media/Blau.JPG?url": "/Pueri_Cantores_Nacional2026/static/media/Blau.2ff0d6739f676a600d87.JPG",
     "static/media/logo_moli.svg?url": "/Pueri_Cantores_Nacional2026/static/media/logo_moli.0cf116ff77ce065699e6.svg",
     "static/media/logo.svg": "/Pueri_Cantores_Nacional2026/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Pueri_Cantores_Nacional2026/index.html",
     "main.0b3c70b1.css.map": "/Pueri_Cantores_Nacional2026/static/css/main.0b3c70b1.css.map",
-    "main.6629103c.js.map": "/Pueri_Cantores_Nacional2026/static/js/main.6629103c.js.map",
+    "main.c8c9930e.js.map": "/Pueri_Cantores_Nacional2026/static/js/main.c8c9930e.js.map",
     "453.5df645b5.chunk.js.map": "/Pueri_Cantores_Nacional2026/static/js/453.5df645b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b3c70b1.css",
-    "static/js/main.6629103c.js"
+    "static/js/main.c8c9930e.js"
   ]
 }
