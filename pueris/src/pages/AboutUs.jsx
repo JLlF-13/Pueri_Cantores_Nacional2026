@@ -2,6 +2,7 @@ import { useState } from "react";
 import organista from "../data/img/AboutUs/organista.jpg";
 import FEPC from "../data/img/AboutUs/FEPC.jpg";
 import Cris from "../data/img/AboutUs/Cris.jpg";
+import Bisbe from "../data/img/AboutUs/Bisbe.jpg";
 
 export const AboutUS = () => {
 
@@ -55,7 +56,28 @@ export const AboutUS = () => {
           <div className="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-slate-200 sm:p-8">
             <img
               src={FEPC}
-              alt="Crador Himne"
+              alt="Creador Himne"
+              className="h-auto max-h-[500px] w-full rounded-xl object-contain"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* BISBE */}
+      <section className="px-4 py-10 sm:px-6 sm:py-14">
+        <div className="mx-auto max-w-5xl">
+          <div className="mb-5 flex items-center gap-3 sm:mb-7 sm:gap-4">
+            <div className="h-10 w-1 shrink-0 rounded-full bg-[#D8B46A] sm:h-12" />
+
+            <h2 className="text-2xl font-bold text-[#123A63] sm:text-3xl">
+              Obispo
+            </h2>
+          </div>
+
+          <div className="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-slate-200 sm:p-8">
+            <img
+              src={Bisbe}
+              alt="Bisbe"
               className="h-auto max-h-[500px] w-full rounded-xl object-contain"
             />
           </div>
@@ -139,17 +161,14 @@ export const AboutUS = () => {
               <div className="flex aspect-square items-center justify-center bg-slate-100 p-3">
                 <img
                   src={Cris}
-                  alt="Músico 4"
+                  alt="Director"
                   className="h-full w-full object-contain"
                 />
               </div>
 
               <div className="px-4 py-3 text-center">
                 <p className="text-sm font-bold text-[#123A63]">
-                  Músico 4
-                </p>
-                <p className="mt-1 text-xs text-slate-500">
-                  Quinteto
+                  Quintet
                 </p>
               </div>
             </article>

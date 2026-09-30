@@ -6,7 +6,7 @@ import data from "../data/galeria_data.json";
 const imagenesImportadas = import.meta.glob(
   "../data/img/**/*.{jpg,jpeg,png,webp}",
   {
-    eager: true,
+    // eager: true,
     query: "?url",
     import: "default",
   }
