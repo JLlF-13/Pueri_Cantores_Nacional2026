@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import data from "../data/galeria_data.json";
 
-// Carregar les imatges només quan siguin necessàries
+// Carregar les imatges
 const imagenesImportadas = import.meta.glob(
   "../data/img/**/*.{jpg,jpeg,png}",
   {
@@ -26,38 +27,50 @@ export const Galeria = () => {
 
   const [galeriaSeleccionada, setGaleriaSeleccionada] = useState(0);
   const [imagenSeleccionada, setImagenSeleccionada] = useState(0);
+  const [imagenCargada, setImagenCargada] = useState(false);
 
   // Galeria actual
   const galeriaActual = galerias[galeriaSeleccionada];
 
-  const tituloGaleria = galeriaActual ? Object.keys(galeriaActual)[0] : "";
+  const tituloGaleria = galeriaActual
+    ? Object.keys(galeriaActual)[0]
+    : "";
 
-  const nombresImagenes = galeriaActual ? galeriaActual[tituloGaleria] : [];
+  const nombresImagenes = galeriaActual
+    ? galeriaActual[tituloGaleria]
+    : [];
 
   // Canviar de galeria
   const cambiarGaleria = (indice) => {
     setGaleriaSeleccionada(indice);
     setImagenSeleccionada(0);
+    setImagenCargada(false);
   };
 
   // Imatge anterior
   const anterior = () => {
     setImagenSeleccionada((actual) =>
-      actual === 0 ? nombresImagenes.length - 1 : actual - 1,
+      actual === 0 ? nombresImagenes.length - 1 : actual - 1
     );
+    setImagenCargada(false);
   };
 
   // Imatge següent
   const siguiente = () => {
     setImagenSeleccionada((actual) =>
-      actual === nombresImagenes.length - 1 ? 0 : actual + 1,
+      actual === nombresImagenes.length - 1 ? 0 : actual + 1
     );
+    setImagenCargada(false);
   };
 
-  const imagenSeleccionadaActual = nombresImagenes[imagenSeleccionada];
+  const imagenSeleccionadaActual =
+    nombresImagenes[imagenSeleccionada];
 
-  const nombreImagenActual = imagenSeleccionadaActual?.imagen;
-  const descripcionActual = imagenSeleccionadaActual?.descripcion || "";
+  const nombreImagenActual =
+    imagenSeleccionadaActual?.imagen;
+
+  const descripcionActual =
+    imagenSeleccionadaActual?.descripcion || "";
 
   const imagenActual = obtenerImagen(nombreImagenActual);
 
@@ -129,10 +142,31 @@ export const Galeria = () => {
 
                 {/* IMAGEN */}
                 <div className="relative flex aspect-video items-center justify-center bg-slate-200">
+
+                  {!imagenCargada && imagenActual && (
+                    <div className="absolute inset-0 z-10 flex flex-col items-center justify-center bg-slate-200">
+                      <DotLottieReact
+                        src="https://lottie.host/a3480378-556b-4d3b-ade0-290141f24d5f/rY7ilXbX4z.lottie"
+                        loop
+                        autoplay
+                        style={{
+                          width: "100px",
+                          height: "100px",
+                        }}
+                      />
+
+                      <p className="mt-2 text-sm text-slate-500">
+                        Cargando imagen...
+                      </p>
+                    </div>
+                  )}
+
                   {imagenActual ? (
                     <img
                       src={imagenActual}
                       alt={`${tituloGaleria} - imagen ${imagenSeleccionada + 1}`}
+                      onLoad={() => setImagenCargada(true)}
+                      onError={() => setImagenCargada(true)}
                       decoding="async"
                       className="h-full w-full object-contain"
                     />
@@ -195,7 +229,10 @@ export const Galeria = () => {
                     return (
                       <button
                         key={item.imagen}
-                        onClick={() => setImagenSeleccionada(index)}
+                        onClick={() => {
+                          setImagenSeleccionada(index);
+                          setImagenCargada(false);
+                        }}
                         className={`aspect-video overflow-hidden rounded-xl transition ${
                           activa
                             ? "ring-2 ring-[#123A63] ring-offset-2"
