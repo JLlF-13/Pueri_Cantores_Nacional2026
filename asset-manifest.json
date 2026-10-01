@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pueri_Cantores_Nacional2026/static/css/main.0b3c70b1.css",
-    "main.js": "/Pueri_Cantores_Nacional2026/static/js/main.6d1e68a9.js",
+    "main.js": "/Pueri_Cantores_Nacional2026/static/js/main.ac93735a.js",
     "static/js/453.5df645b5.chunk.js": "/Pueri_Cantores_Nacional2026/static/js/453.5df645b5.chunk.js",
     "static/media/Himno TUTTI.wav?url": "/Pueri_Cantores_Nacional2026/static/media/Himno TUTTI.fa7b4b4853534cf97251.wav",
     "static/media/Veritatem facientes in caritatem ALTO + Piano.mp3?url": "/Pueri_Cantores_Nacional2026/static/media/Veritatem facientes in caritatem ALTO + Piano.f1b10a5116957d1736c7.mp3",
@@ -80,6 +80,7 @@
     "static/media/Pegatinas_09.png?url": "/Pueri_Cantores_Nacional2026/static/media/Pegatinas_09.2cc9c9199cc4ccf97820.png",
     "static/media/organista.jpg?url": "/Pueri_Cantores_Nacional2026/static/media/organista.60d5391f2f036fbcc5ed.jpg",
     "static/media/Quintet.jpg?url": "/Pueri_Cantores_Nacional2026/static/media/Quintet.7f869ac510045abf0445.jpg",
+    "static/media/Victor.jpg?url": "/Pueri_Cantores_Nacional2026/static/media/Victor.67512e33c2ea08f1df00.jpg",
     "static/media/Inpan.JPG?url": "/Pueri_Cantores_Nacional2026/static/media/Inpan.b9f74c5170c966202fdd.JPG",
     "static/media/FEPC.jpg?url": "/Pueri_Cantores_Nacional2026/static/media/FEPC.7d2b4408d298d901e97a.jpg",
     "static/media/Xoko.png?url": "/Pueri_Cantores_Nacional2026/static/media/Xoko.94db76dc864f56b3f76b.png",
@@ -107,11 +108,11 @@
     "static/media/logo.svg": "/Pueri_Cantores_Nacional2026/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Pueri_Cantores_Nacional2026/index.html",
     "main.0b3c70b1.css.map": "/Pueri_Cantores_Nacional2026/static/css/main.0b3c70b1.css.map",
-    "main.6d1e68a9.js.map": "/Pueri_Cantores_Nacional2026/static/js/main.6d1e68a9.js.map",
+    "main.ac93735a.js.map": "/Pueri_Cantores_Nacional2026/static/js/main.ac93735a.js.map",
     "453.5df645b5.chunk.js.map": "/Pueri_Cantores_Nacional2026/static/js/453.5df645b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b3c70b1.css",
-    "static/js/main.6d1e68a9.js"
+    "static/js/main.ac93735a.js"
   ]
 }
