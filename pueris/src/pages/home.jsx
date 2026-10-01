@@ -137,12 +137,12 @@ export const Home = () => {
                       <div className="text-sm font-bold sm:text-base">
                         {actividad.horaInicio}
 
-                        {actividad.horaFin && (
+                        {actividad.horaFin ? (
                           <span className="font-normal text-blue-100">
                             {" "}
                             - {actividad.horaFin}
                           </span>
-                        )}
+                        ):(<></>)}
                       </div>
 
                     </div>

@@ -6,7 +6,7 @@ import Bisbe from "../data/img/AboutUs/Bisbe.jpg";
 import Quinteto from "../data/img/AboutUs/Quintet.jpg";
 import Jose from "../data/img/AboutUs/Jose.jpg";
 import Victor from "../data/img/AboutUs/Victor.jpg";
-import Joan from "../data/img/AboutUs/Joan.JPG";
+import Joan from "../data/img/AboutUs/Joan.jpg";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 export const AboutUS = () => {
