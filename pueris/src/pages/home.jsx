@@ -29,8 +29,6 @@ export const Home = () => {
 
   const actividades = diaData?.[diaSeleccionado] || [];
 
-  console.log(diaData)
-
   return (
     <main className="min-h-screen bg-slate-50">
 
@@ -131,20 +129,15 @@ export const Home = () => {
                     {/* HORA */}
                     <div className="flex items-center gap-3 bg-[#123A63] px-4 py-3 text-white sm:w-44 sm:flex-col sm:items-start sm:justify-center sm:px-5 sm:py-5">
 
-                      {/* <Clock3
-                        size={19}
-                        className="shrink-0 text-[#D8B46A]"
-                      /> */}
-
-                      <div className="text-sm font-bold sm:text-base">
+                      <div className="notranslate text-sm font-bold sm:text-base">
                         {actividad.horaInicio}
 
-                        {actividad.horaFin ? (
+                        {actividad.horaFin && (
                           <span className="font-normal text-blue-100">
                             {" "}
                             - {actividad.horaFin}
                           </span>
-                        ):(<></>)}
+                        )}
                       </div>
 
                     </div>
