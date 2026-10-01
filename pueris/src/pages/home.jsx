@@ -29,6 +29,8 @@ export const Home = () => {
 
   const actividades = diaData?.[diaSeleccionado] || [];
 
+  console.log(diaData)
+
   return (
     <main className="min-h-screen bg-slate-50">
 
