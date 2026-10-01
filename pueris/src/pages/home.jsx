@@ -61,7 +61,7 @@ export const Home = () => {
             <div className="flex items-center gap-1.5 sm:gap-4">
 
               {/* DÍAS */}
-              <div className="grid min-w-0 flex-1 grid-cols-3 gap-1.5 sm:gap-3">
+              <div className="grid min-w-0 flex-1 grid-cols-4 gap-1.5 sm:gap-3">
 
                 {dias.map((dia) => {
                   const nombreDia = Object.keys(dia)[0];

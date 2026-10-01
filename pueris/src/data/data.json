@@ -19,8 +19,8 @@
                 },
                 {
                     "actividadTitulo": "Ceremonia de Apertura del Congreso y Oración por la Paz",
-                    "link":"https://www.youtube.com/@BisbatdeMenorca/videos",
-                    "informacionAdicional":"Dress Code: Túnica y Cruz",
+                    "link": "https://www.youtube.com/@BisbatdeMenorca/videos",
+                    "informacionAdicional": "Dress Code: Túnica y Cruz",
                     "horaInicio": "21:00"
                 },
                 {
@@ -66,8 +66,8 @@
                 },
                 {
                     "actividadTitulo": "Concierto de Gala en la Iglesia del 'Socors'",
-                    "informacionAdicional":"Dress Code: Uniforme propio de cara Coro",
-                    "link":"https://www.youtube.com/@BisbatdeMenorca/videos",
+                    "informacionAdicional": "Dress Code: Uniforme propio de cara Coro",
+                    "link": "https://www.youtube.com/@BisbatdeMenorca/videos",
                     "horaInicio": "20:00"
                 },
                 {
@@ -88,7 +88,7 @@
                 },
                 {
                     "actividadTitulo": "Bus Lanzadera: Binimar - Ciutadella",
-                    "informacionAdicional":"Con malets y check out echo",
+                    "informacionAdicional": "Con malets y check out echo",
                     "horaInicio": "08:30"
                 },
                 {
@@ -97,9 +97,58 @@
                 },
                 {
                     "actividadTitulo": "Misa de Clausura del Congreso en la Catedral de Menorca",
-                    "informacionAdicional":"Dress Code: Túnica y Cruz",
-                    "link":"https://www.youtube.com/@BisbatdeMenorca/videos",
+                    "informacionAdicional": "Dress Code: Túnica y Cruz",
+                    "link": "https://www.youtube.com/@BisbatdeMenorca/videos",
                     "horaInicio": "10:00"
+                }
+            ]
+        },
+        {
+            "Horarios Ensallos (Dia 11)": [
+                {
+                    "actividadTitulo": "Pueri Cantores de la Catedral de Guadix",
+                    "horaInicio": "16:00",
+                    "horaFin": "16:20"
+                },
+                {
+                    "actividadTitulo": "Escolanía `Pueri Cantores` de la Catedral de Burgos",
+                    "horaInicio": "16:20",
+                    "horaFin": "16:40"
+                },
+                {
+                    "actividadTitulo": "Coral Albada de Granollers",
+                    "horaInicio": "16:40",
+                    "horaFin": "17:00"
+                },
+                {
+                    "actividadTitulo": "Escolanía Pueri Cantores de la S.I. Catedral de Jaén",
+                    "horaInicio": "17:00",
+                    "horaFin": "17:20"
+                },
+                {
+                    "actividadTitulo": "Escolanía Nuestra Señora de la Encarnación - Marbella",
+                    "horaInicio": "17:20",
+                    "horaFin": "17:40"
+                },
+                {
+                    "actividadTitulo": "Escolanía S.L. Catedral y C.D. Santo Domingo - Orihuela",
+                    "horaInicio": "17:40",
+                    "horaFin": "18:00"
+                },
+                {
+                    "actividadTitulo": "Coro Juvenil Santa Maria de Pineda de Mar - Barcelona",
+                    "horaInicio": "18:00",
+                    "horaFin": "18:20"
+                },
+                {
+                    "actividadTitulo": "Chór Chłopięcy Bazyliki Matki Boskiej Bolesnej",
+                    "horaInicio": "18:20",
+                    "horaFin": "18:40"
+                },
+                {
+                    "actividadTitulo": "Coro Infantil Pedro Mena - Adra",
+                    "horaInicio": "18:40",
+                    "horaFin": "19:00"
                 }
             ]
         }

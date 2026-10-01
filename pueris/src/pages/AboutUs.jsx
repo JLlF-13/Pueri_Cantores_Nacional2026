@@ -6,10 +6,11 @@ import Bisbe from "../data/img/AboutUs/Bisbe.jpg";
 import Quinteto from "../data/img/AboutUs/Quintet.jpg";
 import Jose from "../data/img/AboutUs/Jose.jpg";
 import Victor from "../data/img/AboutUs/Victor.jpg";
+import Joan from "../data/img/AboutUs/Joan.JPG";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 export const AboutUS = () => {
-  const totalImages = 7;
+  const totalImages = 8;
   const [loadedImages, setLoadedImages] = useState(0);
 
   const handleImageLoad = () => {
@@ -73,6 +74,28 @@ export const AboutUS = () => {
           </div>
         </section>
 
+                {/* BISBE */}
+        <section className="px-4 py-10 sm:px-6 sm:py-14">
+          <div className="mx-auto max-w-5xl">
+            <div className="mb-5 flex items-center gap-3 sm:mb-7 sm:gap-4">
+              <div className="h-10 w-1 shrink-0 rounded-full bg-[#D8B46A] sm:h-12" />
+
+              <h2 className="text-2xl font-bold text-[#123A63] sm:text-3xl">
+                Obispo de Menorca: Gerard Villalonga
+              </h2>
+            </div>
+
+            <div className="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-slate-200 sm:p-8">
+              <img
+                src={Bisbe}
+                alt="Bisbe"
+                onLoad={handleImageLoad}
+                className="h-auto max-h-[500px] w-full rounded-xl object-contain"
+              />
+            </div>
+          </div>
+        </section>
+
         {/* CREADOR DEL HIMNO */}
         <section className="px-4 py-10 sm:px-6 sm:py-14">
           <div className="mx-auto max-w-5xl">
@@ -88,28 +111,6 @@ export const AboutUS = () => {
               <img
                 src={Victor}
                 alt="Creador Himne"
-                onLoad={handleImageLoad}
-                className="h-auto max-h-[500px] w-full rounded-xl object-contain"
-              />
-            </div>
-          </div>
-        </section>
-
-        {/* BISBE */}
-        <section className="px-4 py-10 sm:px-6 sm:py-14">
-          <div className="mx-auto max-w-5xl">
-            <div className="mb-5 flex items-center gap-3 sm:mb-7 sm:gap-4">
-              <div className="h-10 w-1 shrink-0 rounded-full bg-[#D8B46A] sm:h-12" />
-
-              <h2 className="text-2xl font-bold text-[#123A63] sm:text-3xl">
-                Obispo de Menorca
-              </h2>
-            </div>
-
-            <div className="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-slate-200 sm:p-8">
-              <img
-                src={Bisbe}
-                alt="Bisbe"
                 onLoad={handleImageLoad}
                 className="h-auto max-h-[500px] w-full rounded-xl object-contain"
               />
@@ -215,6 +216,27 @@ export const AboutUS = () => {
                   </p>
                 </div>
               </article>
+            </div>
+          </div>
+        </section>
+        {/* PROGRAMADOR WEB */}
+        <section className="px-4 py-10 sm:px-6 sm:py-14">
+          <div className="mx-auto max-w-5xl">
+            <div className="mb-5 flex items-center gap-3 sm:mb-7 sm:gap-4">
+              <div className="h-10 w-1 shrink-0 rounded-full bg-[#D8B46A] sm:h-12" />
+
+              <h2 className="text-2xl font-bold text-[#123A63] sm:text-3xl">
+                Programador WEB: Joan Lluch Fonoll
+              </h2>
+            </div>
+
+            <div className="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-slate-200 sm:p-8">
+              <img
+                src={Joan}
+                alt="WEB"
+                onLoad={handleImageLoad}
+                className="h-auto max-h-[500px] w-full rounded-xl object-contain"
+              />
             </div>
           </div>
         </section>
