@@ -17,7 +17,7 @@ export const AboutUS = () => {
   };
 
   const isLoading = loadedImages < totalImages;
-  
+
   return (
     <main className="min-h-screen bg-slate-50">
       {/* HERO */}
@@ -195,15 +195,23 @@ export const AboutUS = () => {
                 <div className="flex aspect-square items-center justify-center bg-slate-100 p-3">
                   <img
                     src={Quinteto}
-                    alt="Quineto"
+                    alt="Quinteto de metales"
                     onLoad={handleImageLoad}
                     className="h-full w-full object-contain"
                   />
                 </div>
 
-                <div className="px-4 py-3 text-center">
-                  <p className="text-sm font-bold text-[#123A63]">
-                    Quinteto
+                <div className="px-3 py-3 text-center">
+                  <p className="text-[11px] font-bold leading-relaxed text-[#123A63]">
+                    Celia Morales López — Trombón<br />
+                    Carles Taroncher Ramos — Trompa<br />
+                    Magí Ferrer Bella — Tuba<br />
+                    Nicolás Calcagno Raposo — Trompeta<br />
+                    Júlia Garcia Pons — Trompeta
+                  </p>
+
+                  <p className="mt-2 text-xs font-medium text-slate-500">
+                    Quinteto de Metales
                   </p>
                 </div>
               </article>

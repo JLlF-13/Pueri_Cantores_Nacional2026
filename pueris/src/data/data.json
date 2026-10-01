@@ -9,6 +9,10 @@
                     "horaFin": "19:00"
                 },
                 {
+                    "actividadTitulo": "Bus Lanzadera: Binimar - Ciutadella",
+                    "horaInicio": "17:30"
+                },
+                {
                     "actividadTitulo": "Procesión de la luz",
                     "informacionAdicional": "Salida de los coros en procesión desde las distintas parroquias de Ciutadella hasta la Catedral de Menorca\nDress Code: Túnica y Cruz",
                     "horaInicio": "20:30"
@@ -22,6 +26,10 @@
                 {
                     "actividadTitulo": "Cena y Velada",
                     "horaInicio": "22:00"
+                },
+                {
+                    "actividadTitulo": "Bus Lanzadera: Ciutadella - Binimar",
+                    "horaInicio": "23:30"
                 }
             ]
         },
@@ -30,6 +38,10 @@
                 {
                     "actividadTitulo": "Desayuno",
                     "horaInicio": "10:00"
+                },
+                {
+                    "actividadTitulo": "Bus Lanzadera: Binimar - Ciutadella",
+                    "horaInicio": "10:30"
                 },
                 {
                     "actividadTitulo": "Recepción con autoridades municipales y visita guiada por el centro histórico",
@@ -61,6 +73,10 @@
                 {
                     "actividadTitulo": "Cena y Velada",
                     "horaInicio": "22:00"
+                },
+                {
+                    "actividadTitulo": "Bus Lanzadera: Ciutadella - Binimar",
+                    "horaInicio": "23:30"
                 }
             ]
         },
@@ -69,6 +85,11 @@
                 {
                     "actividadTitulo": "Desayuno y recogida de habitaciones",
                     "horaInicio": "08:00"
+                },
+                {
+                    "actividadTitulo": "Bus Lanzadera: Binimar - Ciutadella",
+                    "informacionAdicional":"Con malets y check out echo",
+                    "horaInicio": "08:30"
                 },
                 {
                     "actividadTitulo": "Ensayo para la Misa de Clausura",
