@@ -96,14 +96,36 @@ export const AboutUS = () => {
           </div>
         </section>
 
-        {/* CREADOR DEL HIMNO */}
+        {/* COMPOSITOR DEL HIMNO */}
         <section className="px-4 py-10 sm:px-6 sm:py-14">
           <div className="mx-auto max-w-5xl">
             <div className="mb-5 flex items-center gap-3 sm:mb-7 sm:gap-4">
               <div className="h-10 w-1 shrink-0 rounded-full bg-[#D8B46A] sm:h-12" />
 
               <h2 className="text-2xl font-bold text-[#123A63] sm:text-3xl">
-                Creador del Himno: Victor Estapé
+                Junta de Menorca
+              </h2>
+            </div>
+
+            <div className="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-slate-200 sm:p-8">
+              <img
+                src={Cris}
+                alt="Junta Menorca"
+                onLoad={handleImageLoad}
+                className="h-auto max-h-[500px] w-full rounded-xl object-contain"
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* COMPOSITOR DEL HIMNO */}
+        <section className="px-4 py-10 sm:px-6 sm:py-14">
+          <div className="mx-auto max-w-5xl">
+            <div className="mb-5 flex items-center gap-3 sm:mb-7 sm:gap-4">
+              <div className="h-10 w-1 shrink-0 rounded-full bg-[#D8B46A] sm:h-12" />
+
+              <h2 className="text-2xl font-bold text-[#123A63] sm:text-3xl">
+                Compositor del Himno: Victor Estapé
               </h2>
             </div>
 

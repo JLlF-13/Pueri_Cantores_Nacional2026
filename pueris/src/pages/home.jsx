@@ -128,7 +128,6 @@ export const Home = () => {
 
                     {/* HORA */}
                     <div className="flex items-center gap-3 bg-[#123A63] px-4 py-3 text-white sm:w-44 sm:flex-col sm:items-start sm:justify-center sm:px-5 sm:py-5">
-
                       <div className="notranslate text-sm font-bold sm:text-base">
                         {actividad.horaInicio}
 
