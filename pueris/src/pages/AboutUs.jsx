@@ -96,8 +96,8 @@ export const AboutUS = () => {
           </div>
         </section>
 
-        {/* COMPOSITOR DEL HIMNO */}
-        <section className="px-4 py-10 sm:px-6 sm:py-14">
+        {/* JUNTA MENORCA */}
+        {/* <section className="px-4 py-10 sm:px-6 sm:py-14">
           <div className="mx-auto max-w-5xl">
             <div className="mb-5 flex items-center gap-3 sm:mb-7 sm:gap-4">
               <div className="h-10 w-1 shrink-0 rounded-full bg-[#D8B46A] sm:h-12" />
@@ -116,7 +116,7 @@ export const AboutUS = () => {
               />
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* COMPOSITOR DEL HIMNO */}
         <section className="px-4 py-10 sm:px-6 sm:py-14">
