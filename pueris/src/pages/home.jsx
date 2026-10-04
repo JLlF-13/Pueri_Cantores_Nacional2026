@@ -52,6 +52,26 @@ export const Home = () => {
         </div>
       </section>
 
+      <section className="px-3 py-5 sm:px-6 sm:py-8">
+        <div className="mx-auto max-w-5xl">
+          <article className="overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-slate-200 transition duration-300 hover:shadow-lg">
+            <div className="flex items-center justify-between gap-4 px-4 py-4 sm:px-6 sm:py-5">
+              <h3 className="text-base font-bold leading-snug text-[#123A63] sm:text-xl">
+                Circular Informativa
+              </h3>
+
+              <a
+                href={`${process.env.PUBLIC_URL}/Circular informativa VI Congreso Nacional.pdf`}
+                download
+                className="shrink-0 rounded-lg bg-[#123A63] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#1B4E7A] sm:px-5 sm:py-2.5 sm:text-base"
+              >
+                Descargar
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
       {/* SELECTOR DE DÍAS */}
       <section className="px-3 py-5 sm:px-6 sm:py-8">
         <div className="mx-auto max-w-5xl">
@@ -71,11 +91,10 @@ export const Home = () => {
                     <button
                       key={nombreDia}
                       onClick={() => setDiaSeleccionado(nombreDia)}
-                      className={`min-w-0 rounded-xl px-1 py-3 text-xs font-bold transition duration-300 sm:px-4 sm:py-5 sm:text-base ${
-                        activo
-                          ? "bg-[#123A63] text-white shadow-md"
-                          : "bg-slate-100 text-[#123A63] hover:bg-[#123A63]/10"
-                      }`}
+                      className={`min-w-0 rounded-xl px-1 py-3 text-xs font-bold transition duration-300 sm:px-4 sm:py-5 sm:text-base ${activo
+                        ? "bg-[#123A63] text-white shadow-md"
+                        : "bg-slate-100 text-[#123A63] hover:bg-[#123A63]/10"
+                        }`}
                     >
                       {nombreDia}
                     </button>
@@ -150,13 +169,13 @@ export const Home = () => {
 
                       {actividad.informacionAdicional && (
                         <p style={{ whiteSpace: "pre-line" }}>
-                            {actividad.informacionAdicional}
+                          {actividad.informacionAdicional}
                         </p>
                       )}
 
                       {actividad.link && (
                         <p style={{ whiteSpace: "pre-line" }} className="text-red-400">
-                            <a href={actividad.link} target="_blank">Ver evento en directo</a>
+                          <a href={actividad.link} target="_blank">Ver evento en directo</a>
                         </p>
                       )}
 
