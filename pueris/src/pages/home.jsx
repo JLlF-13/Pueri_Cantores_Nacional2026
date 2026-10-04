@@ -57,7 +57,7 @@ export const Home = () => {
           <article className="overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-slate-200 transition duration-300 hover:shadow-lg">
             <div className="flex items-center justify-between gap-4 px-4 py-4 sm:px-6 sm:py-5">
               <h3 className="text-base font-bold leading-snug text-[#123A63] sm:text-xl">
-                Circular Informativa
+                Circular Informativa VI Congreso Nacional
               </h3>
 
               <a
