@@ -59,7 +59,7 @@ export const AboutUS = () => {
               <div className="h-10 w-1 shrink-0 rounded-full bg-[#D8B46A] sm:h-12" />
 
               <h2 className="text-2xl font-bold text-[#123A63] sm:text-3xl">
-                Federación Española de Puericantores
+                Federación Española de Pueri Cantores
               </h2>
             </div>
 

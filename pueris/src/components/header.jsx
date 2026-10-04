@@ -81,7 +81,7 @@ export const Header = () => {
             to="/Pueri_Cantores_Nacional2026/premsa/"
             className="transition duration-300 hover:text-[#D8B46A]"
           >
-            Premsa
+            Prensa
           </Link>
 
           {/* <Link
@@ -178,7 +178,7 @@ export const Header = () => {
             className="block px-6 py-4 transition hover:bg-[#1B4E7A] hover:text-[#D8B46A]"
             onClick={() => setOpen(false)}
           >
-            Premsa
+            Prensa
           </Link>
 
           {/* <Link

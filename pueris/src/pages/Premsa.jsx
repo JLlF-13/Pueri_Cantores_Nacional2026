@@ -18,7 +18,7 @@ export const Premsa = () => {
           </h1>
 
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-blue-100 sm:mt-4 sm:text-lg">
-            Consulta todos los artículos de premsa relacionados con el congreso
+            Consulta todos los artículos de prensa relacionados con el congreso
           </p>
         </div>
       </section>
@@ -32,7 +32,7 @@ export const Premsa = () => {
                 className="group flex min-h-[120px] flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg"
               >
                 {/* Títol */}
-                <h2 className="text-lg font-bold leading-snug text-slate-800">
+                <h2 className="notranslate text-lg font-bold leading-snug text-slate-800">
                   {participant.title}
                 </h2>
 
