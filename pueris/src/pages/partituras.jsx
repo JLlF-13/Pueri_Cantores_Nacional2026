@@ -74,6 +74,26 @@ export const Partituras = () => {
         </div>
       </section>
 
+      <section className="px-3 py-5 sm:px-6 sm:py-8">
+        <div className="mx-auto max-w-5xl">
+          <article className="overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-slate-200 transition duration-300 hover:shadow-lg">
+            <div className="flex items-center justify-between gap-4 px-4 py-4 sm:px-6 sm:py-5">
+              <h3 className="text-base font-bold leading-snug text-[#123A63] sm:text-xl">
+                Libro con portadas
+              </h3>
+
+              <a
+                href={`${process.env.PUBLIC_URL}/Libro con portadas.pdf`}
+                download
+                className="shrink-0 rounded-lg bg-[#123A63] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#1B4E7A] sm:px-5 sm:py-2.5 sm:text-base"
+              >
+                Descargar
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
       {/* SELECTOR DE OBRAS */}
       <section className="px-3 py-5 sm:px-6 sm:py-8">
         <div className="mx-auto max-w-5xl">

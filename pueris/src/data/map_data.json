@@ -103,22 +103,21 @@
           "longitud": 3.806548
         },
         {
-          "nom": "Farmacia Guardia (Día 10)",
+          "nom": "Farmacia Guardia (Día 10) - Farmàcia Font Lopez",
           "link": "https://maps.app.goo.gl/8VqscMy9mPW558tp7",
-          "latitud": 39.999371,
-          "longitud": 3.844636
+          "latitud": 40.004117,
+          "longitud": 3.845968
         },
         {
-          "nom": "Farmacia Guardia (Día 11)",
+          "nom": "Farmacia Guardia (Día 11) - Farmacia Castany Casasnovas",
           "link": "https://maps.app.goo.gl/8VqscMy9mPW558tp7",
-          "latitud": 39.999371,
-          "longitud": 3.844636
+          "latitud": 40.006150,
+          "longitud": 3.836352
         },
         {
-          "nom": "Farmacia Guardia (Día 12)",
-          "link": "https://maps.app.goo.gl/8VqscMy9mPW558tp7",
-          "latitud": 39.999371,
-          "longitud": 3.844636
+          "nom": "Farmacia Guardia (Día 12) - Farmàcia March",
+          "latitud": 39.998985,
+          "longitud": 3.842126
         }
       ]
     },
