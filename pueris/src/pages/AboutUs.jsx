@@ -83,7 +83,7 @@ export const AboutUS = () => {
               <div className="h-10 w-1 shrink-0 rounded-full bg-[#D8B46A] sm:h-12" />
 
               <h2 className="text-2xl font-bold text-[#123A63] sm:text-3xl">
-                Obispo de Menorca: Gerard Villalonga
+                Obispo de Menorca y Autor de la letra del Himno: Gerard Villalonga
               </h2>
             </div>
 

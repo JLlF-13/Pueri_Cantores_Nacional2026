@@ -109,6 +109,11 @@
                     "actividadTitulo": "Lugar de ensayo: Iglesia del Socors"
                 },
                 {
+                    "actividadTitulo": "Pueri Cantores de la Catedral de Menorca",
+                    "horaInicio": "15:30",
+                    "horaFin": "16:00"
+                },
+                {
                     "actividadTitulo": "Pueri Cantores de la Catedral de Guadix",
                     "horaInicio": "16:00",
                     "horaFin": "16:20"
