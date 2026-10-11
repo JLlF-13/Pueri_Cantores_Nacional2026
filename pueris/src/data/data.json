@@ -100,6 +100,11 @@
                     "informacionAdicional": "Dress Code: Túnica y Cruz",
                     "link": "https://www.youtube.com/live/U1534czcKFc?si=Xkblgnjf4SrNo97x",
                     "horaInicio": "10:00"
+                },
+                {
+                    "actividadTitulo": "Almuerzo y Cierre",
+                    "informacionAdicional": "La sala multifuncional permanecerá abierta a disposición de los Coros hasta las 18:00 para guardar maletas o descansar.",
+                    "horaInicio": "Al finalizar la missa"
                 }
             ]
         },
@@ -107,11 +112,6 @@
             "Horarios Ensayos (Dia 11)": [
                 {
                     "actividadTitulo": "Lugar de ensayo: Iglesia del Socors"
-                },
-                {
-                    "actividadTitulo": "Pueri Cantores de la Catedral de Menorca",
-                    "horaInicio": "15:30",
-                    "horaFin": "16:00"
                 },
                 {
                     "actividadTitulo": "Pueri Cantores de la Catedral de Guadix",
@@ -157,6 +157,11 @@
                     "actividadTitulo": "Coro Infantil Pedro Mena - Adra",
                     "horaInicio": "18:40",
                     "horaFin": "19:00"
+                },
+                {
+                    "actividadTitulo": "Pueri Cantores de la Catedral de Menorca",
+                    "horaInicio": "19:00",
+                    "horaFin": "19:10"
                 }
             ]
         }
