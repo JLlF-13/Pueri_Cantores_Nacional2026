@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
-import data from "../data/galeria_data.json";
+import data from "../data/galeria_data1.json";
 
 // Carregar les imatges
 const imagenesImportadas = import.meta.glob(
@@ -14,13 +14,26 @@ const imagenesImportadas = import.meta.glob(
 );
 
 // Buscar una imatge pel seu nom
+
 const obtenerImagen = (nombreArchivo) => {
+  if (!nombreArchivo) return null;
+
+  const nombreNormalizado = nombreArchivo
+    .replace(/^\/+/, "")
+    .replace(/\\/g, "/");
+
   const ruta = Object.keys(imagenesImportadas).find((ruta) =>
-    ruta.endsWith(`/${nombreArchivo}`)
+    ruta.endsWith(`/data/img/${nombreNormalizado}`)
   );
 
-  return ruta ? imagenesImportadas[ruta] : null;
+  if (!ruta) {
+    console.warn("Imatge no trobada:", nombreArchivo);
+    return null;
+  }
+
+  return imagenesImportadas[ruta];
 };
+
 
 export const Galeria = () => {
   const galerias = data.Galeria;

@@ -1,0 +1,240 @@
+{
+  "Galeria": [
+    {
+      "Participantes": [
+        {
+          "imagen": "Coros/Coros_01.png",
+          "descripcion": "Pueri Cantores de la Catedral de Guadix"
+        },
+        {
+          "imagen": "Coros/Coros_02.png",
+          "descripcion": "Pueri Cantores de la Catedral de Menorca"
+        },
+        {
+          "imagen": "Coros/Coros_03.png",
+          "descripcion": "Coro Infantil Pedro Mena de Adra"
+        },
+        {
+          "imagen": "Coros/Coros_04.png",
+          "descripcion": "Escolanía `Pueri Cantores` de la Catedral de Burgos"
+        },
+        {
+          "imagen": "Coros/Coros_05.png",
+          "descripcion": "Escolanía S.L. Catedral y C.D. Santo Domingo de Orihuela"
+        },
+        {
+          "imagen": "Coros/Coros_06.png",
+          "descripcion": "Escolanía Pueri Cantores de la S.I. Catedral de Jaén"
+        },
+        {
+          "imagen": "Coros/Coros_07.png",
+          "descripcion": "Escolanía Nuestra Señora de la Encarnación de Marbella"
+        },
+        {
+          "imagen": "Coros/Coros_08.png",
+          "descripcion": "Coro Juvenil Santa Maria de Pineda de Mar"
+        },
+        {
+          "imagen": "Coros/Coros_09.png",
+          "descripcion": "Coral Albada de Granollers"
+        },
+        {
+          "imagen": "Coros/Coros_10.png",
+          "descripcion": "Chór Chłopięcy Bazyliki Matki Boskiej Bolesnej"
+        }
+      ]
+    },
+    {
+      "Pegatinas": [
+        {
+          "imagen": "Pegatinas/Pegatinas_01.png",
+          "descripcion": "Pegatina de Pueri Cantores de la Catedral de Guadix"
+        },
+        {
+          "imagen": "Pegatinas/Pegatinas_02.png",
+          "descripcion": "Pegatina de Pueri Cantores de la Catedral de Menorca"
+        },
+        {
+          "imagen": "Pegatinas/Pegatinas_03.png",
+          "descripcion": "Pegatina de Coro Infantil Pedro Mena de Adra"
+        },
+        {
+          "imagen": "Pegatinas/Pegatinas_04.png",
+          "descripcion": "Pegatina de Escolanía `Pueri Cantores` de la Catedral de Burgos"
+        },
+        {
+          "imagen": "Pegatinas/Pegatinas_05.png",
+          "descripcion": "Pegatina de Escolanía S.L. Catedral y C.D. Santo Domingo de Orihuela"
+        },
+        {
+          "imagen": "Pegatinas/Pegatinas_06.png",
+          "descripcion": "Pegatina de Escolanía Pueri Cantores de la S.I. Catedral de Jaén"
+        },
+        {
+          "imagen": "Pegatinas/Pegatinas_07.png",
+          "descripcion": "Pegatina de Escolanía Nuestra Señora de la Encarnación de Marbella"
+        },
+        {
+          "imagen": "Pegatinas/Pegatinas_08.png",
+          "descripcion": "Pegatina Coro Juvenil Santa Maria de Pineda de Mar"
+        },
+        {
+          "imagen": "Pegatinas/Pegatinas_09.png",
+          "descripcion": "Pegatina de Coral Albada de Granollers"
+        },
+        {
+          "imagen": "Pegatinas/Pegatinas_10.png",
+          "descripcion": "Pegatina de Chór Chłopięcy Bazyliki Matki Boskiej Bolesnej"
+        }
+      ]
+    },
+    {
+      "Procesión de la luz": [
+        {
+          "imagen": "Luz/PHOTO-2026-10-15-17-00-55.jpg",
+          "descripcion": ""
+        }
+      ]
+    },
+    {
+      "Acto Inaugural": [
+        {
+          "imagen": "Acto Inaugural/Image 2026-10-15 at 17.10.29.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Acto Inaugural/Image 2026-10-15 at 17.10.29_1.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Acto Inaugural/Image 2026-10-15 at 17.10.30_1.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Acto Inaugural/Image 2026-10-15 at 17.10.30.jpeg",
+          "descripcion": ""
+        }
+      ]
+    },
+    {
+      "Concierto de gala": [
+        {
+          "imagen": "Gala/Ciuta_Image 2026-10-15 at 17.10.30.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Gala/IImage 2026-10-12 at 20.22.22_1.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Gala/Image 2026-10-12 at 20.22.20.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Gala/Image 2026-10-12 at 20.22.21_1.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Gala/Image 2026-10-12 at 20.22.21_2.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Gala/Image 2026-10-12 at 20.22.21.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Gala/Image 2026-10-12 at 20.22.22.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Gala/Image 2026-10-12 at 20.22.23_1.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Gala/Image 2026-10-12 at 20.22.23.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Gala/Image 2026-10-12 at 20.22.24.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Gala/Image 2026-10-15 at 17.05.18_1.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Gala/Image 2026-10-15 at 17.05.18_2.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Gala/Image 2026-10-15 at 17.05.18.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Gala/Image 2026-10-15 at 17.05.19_1.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Gala/Image 2026-10-15 at 17.05.19.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Gala/Image 2026-10-15 at 17.05.20.jpeg",
+          "descripcion": ""
+        }
+      ]
+    },
+    {
+      "Gincama": [
+        {
+          "imagen": "Gincama/Image 2026-10-15 at 17.00.31_1.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Gincama/Image 2026-10-15 at 17.00.31.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Gincama/Image 2026-10-15 at 17.05.14.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Gincama/PHOTO-2026-10-15-23-54-04_1.jpg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Gincama/PHOTO-2026-10-15-23-54-04.jpg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Gincama/PHOTO-2026-10-17-09-12-49.jpg",
+          "descripcion": ""
+        }
+      ]
+    },
+    {
+      "Sala Multifuncional": [
+        {
+          "imagen": "Multifuncional/PHOTO-2026-10-15-17-01-10.jpg",
+          "descripcion": ""
+        }
+      ]
+    },
+    {
+      "Binimar": [
+        {
+          "imagen": "Binimar/Image 2026-10-13 at 12.31.07.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Binimar/Image 2026-10-13 at 12.46.35.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Binimar/Image 2026-10-15 at 17.05.12.jpeg",
+          "descripcion": ""
+        }
+      ]
+    }
+  ]
+}
