@@ -91,7 +91,23 @@
     {
       "Procesión de la luz": [
         {
+          "imagen": "Luz/Luz.jpeg",
+          "descripcion": ""
+        },
+        {
           "imagen": "Luz/PHOTO-2026-10-15-17-00-55.jpg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Luz/Image 2026-10-18 at 18.01.08.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Luz/Image 2026-10-18 at 17.59.10.jpeg",
+          "descripcion": ""
+        },
+        {
+          "imagen": "Luz/Image 2026-10-18 at 17.31.50.jpeg",
           "descripcion": ""
         }
       ]
@@ -185,7 +201,7 @@
       ]
     },
     {
-      "Gincama": [
+      "Gincana": [
         {
           "imagen": "Gincama/Image 2026-10-15 at 17.00.31_1.jpeg",
           "descripcion": ""
